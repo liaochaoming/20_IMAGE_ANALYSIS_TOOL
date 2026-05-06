@@ -21,7 +21,10 @@ __pycache__/
 # Windows shortcuts / local convenience
 *.lnk
 
-# Model files should stay in D:\30_AI_MODEL, not this repo
+# Model files should stay in IMAGE_ANALYSIS_MODEL_DIR or D:\30_AI_MODEL,
+# not tracked in this repo. Optional offline bundles may place them under
+# 90_MODEL\YOLO_POSE\models but still keep them out of Git.
+90_MODEL/
 *.pt
 *.onnx
 *.safetensors

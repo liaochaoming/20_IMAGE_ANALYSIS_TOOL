@@ -1,7 +1,7 @@
 $ErrorActionPreference = "Continue"
 [Console]::OutputEncoding = [System.Text.Encoding]::UTF8
 
-$Root = "D:\20_IMAGE_ANALYSIS_TOOL"
+$Root = (Resolve-Path (Join-Path $PSScriptRoot "..")).Path
 $Venv = Join-Path $Root ".venv"
 $Python = Join-Path $Venv "Scripts\python.exe"
 $Log = Join-Path $Root "99_LOG\ASSET_MANAGER\install_full_env.log"
@@ -22,8 +22,7 @@ if (!(Test-Path -LiteralPath $Python)) {
   mediapipe ultralytics opencv-python pillow numpy pandas matplotlib `
   2>&1 | Tee-Object -FilePath $Log -Append
 
-& $Python -m pip uninstall -y torch torchvision torchaudio 2>&1 | Tee-Object -FilePath $Log -Append
-& $Python -m pip install torch==2.10.0 torchvision==0.25.0 torchaudio==2.10.0 --index-url https://download.pytorch.org/whl/cu130 2>&1 | Tee-Object -FilePath $Log -Append
+& $Python -m pip install --force-reinstall torch==2.11.0+cu130 torchvision==0.26.0+cu130 --index-url https://download.pytorch.org/whl/cu130 2>&1 | Tee-Object -FilePath $Log -Append
 & $Python -m pip install ultralytics-thop 2>&1 | Tee-Object -FilePath $Log -Append
 
 & $Python -m pip check 2>&1 | Tee-Object -FilePath $Log -Append

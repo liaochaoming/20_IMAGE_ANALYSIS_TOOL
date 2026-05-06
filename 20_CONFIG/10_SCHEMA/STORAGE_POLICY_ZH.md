@@ -70,6 +70,8 @@ NAS：30_CATALOG / 40_ALL_INPUT 正式保存
 - `30_CATALOG\{CATEGORY}\15_{CATEGORY}_INPUT` 是分類後正式分析入口。
 - `30_CATALOG\{CATEGORY}\20_ANALYSIS_RESULT` 是分析後結果。
 - 程式要讀 `STORAGE_POLICY.json`，不要硬寫死 `D:\` 或 `I:\`。
-- 模型大檔仍放 `D:\30_AI_MODEL`，不放進可攜式專案包。
+- 模型大檔預設放 `D:\30_AI_MODEL\YOLO_POSE\models`，不進 Git。
+- 可用環境變數 `IMAGE_ANALYSIS_MODEL_DIR` 指向其他模型庫。
+- 若要做離線可攜包，可把模型放在 `90_MODEL\YOLO_POSE\models`，但仍不進 Git。
 
 

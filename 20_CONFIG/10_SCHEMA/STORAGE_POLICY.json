@@ -73,7 +73,7 @@
                            "00_DATA 保存來源標準資料；10_CONFIG 保存分類規則與標籤規則。",
                            "分析完成後把 OUTPUT/DB/RAG/TAG 寫回分類目錄，未來同步到 NAS。",
                            "程式不可硬寫死 I:\\ 或 D:\\；應讀取 STORAGE_POLICY.json 或環境變數。",
-                           "模型本體仍保留在 D:\\30_AI_MODEL，不放入專案資料包。"
+                           "模型本體預設保留在 D:\\30_AI_MODEL，不放入 Git；可用 IMAGE_ANALYSIS_MODEL_DIR 指向其他模型庫。離線可攜包可另放 90_MODEL\\YOLO_POSE\\models，但仍不進 Git。"
                        ],
     "category_input_paths":  {
                                  "ANATOMY":  "30_CATALOG\\ANATOMY\\15_ANATOMY_INPUT",

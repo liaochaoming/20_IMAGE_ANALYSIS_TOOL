@@ -1,7 +1,8 @@
 @echo off
 setlocal
 
-set "ROOT=D:\20_IMAGE_ANALYSIS_TOOL"
+set "ROOT=%~dp0.."
+for %%I in ("%ROOT%") do set "ROOT=%%~fI"
 set "VENV=%ROOT%\.venv"
 
 if not exist "%VENV%\Scripts\activate.bat" (
