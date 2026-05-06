@@ -1,5 +1,5 @@
 {
-  "version": "0.2",
+  "version": "0.3",
   "category_id": "YOGA",
   "updated_at": "2026-05-07T00:00:00+08:00",
   "paths": {
@@ -22,19 +22,29 @@
     "active_yolo_pose": "strong",
     "vision_llm": "qwen3-vl:32b"
   },
+  "ollama": {
+    "base_url": "http://127.0.0.1:11434",
+    "timeout_seconds": 240,
+    "temperature": 0,
+    "num_predict": 96,
+    "prompt": "/no_think\n你是 YOGA 圖片資料庫的視覺分析模型。請只輸出繁體中文 JSON，不要輸出推理過程。欄位固定為 summary_zh, pose_guess, visual_tags, quality_tags, needs_review, suggested_tags。summary_zh 必須是繁體中文一句話。pose_guess 用英文短標籤。visual_tags 與 quality_tags 使用英文短標籤。"
+  },
   "steps": {
     "file_inventory": true,
     "yolo_pose": true,
     "mediapipe": false,
-    "vision_llm": false,
-    "duckdb": false,
-    "rag": false,
+    "vision_llm": true,
+    "duckdb": true,
+    "rag": true,
     "auto_tag": true,
     "config_suggestions": true
   },
   "rules": {
     "do_not_modify_formal_config": true,
     "model_config_suggestions_only": true,
+    "reuse_existing_analysis": true,
+    "force_reanalyze": false,
+    "prune_missing_input_outputs": true,
     "empty_input_is_success": true,
     "supported_extensions": [".jpg", ".jpeg", ".png", ".webp", ".bmp"]
   }

@@ -261,13 +261,16 @@ MediaPipe
 = pose landmark / 人體關節點
 
 Qwen3-VL via Ollama
-= 圖像語意理解 / 圖文摘要 / 分類理由
+= 圖像語意理解 / 圖中文字理解 / 中文摘要 / 體式推測 / 標籤建議
+= 慢速深度分析層，單張可能約 60-120 秒
+= 圖片 hash 未變時必須優先讀快取，不重複呼叫
 
 DuckDB
 = 結構化索引 / 查詢 / 報表
 
-Chroma 或等效向量庫
-= Embedding / RAG / 語意搜尋
+local_hash_vector_v1 或等效向量庫
+= RAG / 語意搜尋索引
+= 目前 V2 使用本機 hash vector JSON 建立 `40_RAG\vector_index`
 ```
 
 ## 輸出契約
@@ -320,6 +323,59 @@ D:\20_IMAGE_ANALYSIS_TOOL\30_CATALOG\YOGA\50_TAG\auto_tags
 
 環境驗證：
 D:\20_IMAGE_ANALYSIS_TOOL\70_SCRIPT\verify_full_env.py
+```
+
+## YOGA V2 已接通流程
+
+目前 YOGA V2 已接通：
+
+```text
+30_CATALOG\YOGA\15_YOGA_INPUT
+↓
+analysis_engine.py --category YOGA
+↓
+YOLO Pose：人體 / 姿勢點偵測
+↓
+Qwen3-VL / Ollama：圖像語意理解、中文摘要、體式推測、標籤建議
+↓
+DuckDB：30_DB\image_index.duckdb
+↓
+RAG：40_RAG\vector_index
+↓
+auto_tags：50_TAG\auto_tags
+↓
+WebUI 中文顯示
+```
+
+Pipeline 開關由下列檔案控制：
+
+```text
+30_CATALOG\YOGA\10_CONFIG\YOGA_ANALYSIS_PIPELINE.json
+```
+
+目前啟用：
+
+```text
+yolo_pose = true
+vision_llm = true
+duckdb = true
+rag = true
+auto_tag = true
+config_suggestions = true
+reuse_existing_analysis = true
+force_reanalyze = false
+```
+
+快取規則：
+
+```text
+同一張圖片 file_hash 未變
+↓
+直接讀取既有 analysis_json / auto_tags / DuckDB / RAG
+↓
+不重新載入 YOLO
+↓
+不重新呼叫 Qwen3-VL
 ```
 
 ## YOGA 正式設定檔

@@ -4,6 +4,8 @@ import csv
 import json
 import random
 import shutil
+import subprocess
+import sys
 from datetime import datetime
 from pathlib import Path
 
@@ -15,6 +17,7 @@ DATA_DIR = ROOT / "30_CATALOG" / "YOGA" / "15_YOGA_INPUT"
 OUTPUT_DIR = ROOT / "30_CATALOG" / "YOGA" / "20_ANALYSIS_RESULT"
 AUTO_TAG_DIR = ROOT / "30_CATALOG" / "YOGA" / "50_TAG" / "auto_tags"
 CONFIG_DIR = ROOT / "80_APP" / "ASSET_MANAGER_WEBUI" / "00_CONFIG"
+ENGINE_PATH = ROOT / "80_APP" / "ANALYSIS_ENGINE" / "analysis_engine.py"
 LABEL_CSV = OUTPUT_DIR / "image_labels.csv"
 LABEL_JSON = OUTPUT_DIR / "image_labels.json"
 FOLDERS_JSON = CONFIG_DIR / "folders.json"
@@ -54,6 +57,27 @@ TAG_ZH = {
     "analyzed": "已分析",
     "confirmed": "已確認",
     "rejected": "已排除",
+    "vision_llm_analyzed": "語意模型已分析",
+}
+
+TEXT_ZH = {
+    "接下来": "接下來",
+    "图片": "圖片",
+    "显示": "顯示",
+    "一个": "一個",
+    "穿着": "穿著",
+    "短裤": "短褲",
+    "双脚": "雙腳",
+    "并拢": "併攏",
+    "双手": "雙手",
+    "下垂": "下垂",
+    "内容": "內容",
+    "瑜伽": "瑜珈",
+    "体式": "體式",
+    "用户": "使用者",
+    "关于": "關於",
+    "视觉": "視覺",
+    "资料库": "資料庫",
 }
 
 
@@ -66,6 +90,14 @@ def ensure_dirs() -> None:
 
 def zh_tag(tag: str) -> str:
     return TAG_ZH.get(tag, tag)
+
+
+def zh_text(text: str) -> str:
+    output = text or ""
+    for source, target in sorted(TEXT_ZH.items(), key=lambda item: len(item[0]), reverse=True):
+        output = output.replace(source, target)
+    output = output.replace("接下來，我需要分析圖片內容。", "")
+    return output
 
 
 def read_auto_tags() -> list[dict]:
@@ -105,6 +137,14 @@ def auto_tag_text(row: dict | None) -> str:
     confidence = row.get("confidence") or {}
     if "pose_mean" in confidence:
         lines.append(f"姿勢信心：{confidence['pose_mean']}")
+    yolo = row.get("yolo") or {}
+    if yolo:
+        lines.append(f"YOLO：{yolo.get('person_count', 0)} 人 / 信心 {yolo.get('mean_confidence', 0.0)}")
+    vision = row.get("vision_llm") or {}
+    if vision.get("enabled"):
+        lines.append(f"Qwen：{zh_text(vision.get('summary_zh', ''))}")
+        if vision.get("pose_guess"):
+            lines.append(f"Qwen 姿勢：{vision.get('pose_guess')}")
     lines.append(f"asset_id：{row.get('asset_id', '')}")
     return "\n".join(lines)
 
@@ -437,6 +477,25 @@ def randomize(folder: str, tag: str, keyword: str) -> tuple[list[tuple[str, str]
     return items, "已隨機排序"
 
 
+def run_yoga_analysis(folder: str, tag: str, keyword: str) -> tuple[list[tuple[str, str]], gr.Dropdown, gr.Dropdown, str, str]:
+    ensure_dirs()
+    if not ENGINE_PATH.exists():
+        return gallery_items(folder, tag, keyword), gr.update(), gr.update(), folder_summary(), f"找不到分析引擎：{ENGINE_PATH}"
+    completed = subprocess.run(
+        [sys.executable, str(ENGINE_PATH), "--category", "YOGA"],
+        cwd=str(ROOT),
+        text=True,
+        capture_output=True,
+        encoding="utf-8",
+        errors="replace",
+    )
+    if completed.returncode != 0:
+        message = (completed.stderr or completed.stdout or "").strip()
+        return gallery_items(folder, tag, keyword), gr.update(), gr.update(), folder_summary(), f"分析失敗：{message[-800:]}"
+    message = (completed.stdout or "").strip()
+    return gallery_items(folder, tag, keyword), gr.update(choices=folder_choices()), gr.update(choices=tag_choices()), folder_summary(), f"分析完成：{message[-800:]}"
+
+
 CSS = """
 body, .gradio-container {
   background: #ffffff !important;
@@ -484,6 +543,7 @@ def build_app() -> gr.Blocks:
                 folder_filter = gr.Dropdown(label="資料夾", choices=folder_choices(), value="全部", allow_custom_value=True)
                 new_folder = gr.Textbox(label="新增資料夾")
                 create_folder_btn = gr.Button("新增資料夾")
+                analyze_btn = gr.Button("分析", variant="primary")
                 refresh_btn = gr.Button("重新整理")
                 random_btn = gr.Button("隨機")
             with gr.Column(scale=4):
@@ -508,6 +568,7 @@ def build_app() -> gr.Blocks:
 
         gallery.select(select_image, inputs=[folder_filter, tag_filter, keyword], outputs=[preview, image_name, asset_type, category, tags, favorite, source_url, note, auto_tags])
         upload.upload(upload_images, inputs=[upload, folder_filter, tag_filter, keyword], outputs=[gallery, folder_filter, summary, status])
+        analyze_btn.click(run_yoga_analysis, inputs=[folder_filter, tag_filter, keyword], outputs=[gallery, folder_filter, tag_filter, summary, status])
         refresh_btn.click(refresh, inputs=[folder_filter, tag_filter, keyword], outputs=[gallery, folder_filter, tag_filter, summary, status])
         folder_filter.change(refresh, inputs=[folder_filter, tag_filter, keyword], outputs=[gallery, folder_filter, tag_filter, summary, status])
         tag_filter.change(refresh, inputs=[folder_filter, tag_filter, keyword], outputs=[gallery, folder_filter, tag_filter, summary, status])

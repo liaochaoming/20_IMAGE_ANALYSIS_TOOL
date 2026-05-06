@@ -22,6 +22,11 @@ LAST_UPDATE: 2026-05-07
 10. `50_TAG\auto_tags` 保存每張圖實際分析出的 TAG JSON。
 11. WebUI 讀取人工 CSV 標籤與 `50_TAG\auto_tags`，並在介面用中文顯示自動分析標籤。
 12. TAG 檔案維持 JSON 與英文 ID，中文顯示由 WebUI 轉譯，不改 TAG 檔名。
+13. YOLO 與 Qwen3-VL 分工不同：YOLO 做快速人體 / 姿勢點偵測，Qwen3-VL 做整張圖語意理解、圖中文字理解、中文摘要、體式推測與標籤建議。
+14. Qwen3-VL / Ollama 是慢速深度分析層，單張圖片可能需要約 60-120 秒；不應把它視為即時快速分類工具。
+15. 建庫第一次可完整跑 Qwen3-VL；後續圖片若檔案 hash 未變，應優先讀既有 `analysis_json` / `auto_tags` / DuckDB / RAG 結果，避免重複呼叫 Qwen。
+16. 建議流程是先用 YOLO 做第一層快速分析，再只對需要語意理解、OCR、體式名稱推測、摘要或標籤建議的圖片啟動 Qwen3-VL。
+17. Qwen3-VL 的新標籤或新規則只能輸出到 `20_ANALYSIS_RESULT\config_suggestions`，不得直接改 `10_CONFIG`。
 
 ## 已建立資產
 

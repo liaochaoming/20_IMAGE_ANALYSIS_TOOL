@@ -20,8 +20,12 @@ if not exist "%ENGINE%" (
 )
 
 cd /d "%ROOT%"
-echo Running YOGA analysis...
+echo Running YOGA full analysis...
 echo Input: %ROOT%\30_CATALOG\YOGA\15_YOGA_INPUT
+echo YOLO Pose: ON
+echo Qwen3-VL/Ollama: ON
+echo DuckDB: ON
+echo RAG/vector_index: ON
 echo.
 
 "%PYTHON%" "%ENGINE%" --category YOGA
