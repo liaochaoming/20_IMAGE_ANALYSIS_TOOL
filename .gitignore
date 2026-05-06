@@ -1,0 +1,27 @@
+# Local runtime
+.venv/
+__pycache__/
+*.pyc
+
+# Large source data and user inputs
+30_CATALOG/**/00_DATA/
+30_CATALOG/**/15_*_INPUT/
+40_ALL_INPUT/
+
+# Generated analysis artifacts
+30_CATALOG/**/20_ANALYSIS_RESULT/
+30_CATALOG/**/30_DB/
+30_CATALOG/**/40_RAG/
+30_CATALOG/**/50_TAG/auto_tags/
+
+# Logs and run outputs
+99_LOG/
+*.log
+
+# Windows shortcuts / local convenience
+*.lnk
+
+# Model files should stay in D:\30_AI_MODEL, not this repo
+*.pt
+*.onnx
+*.safetensors

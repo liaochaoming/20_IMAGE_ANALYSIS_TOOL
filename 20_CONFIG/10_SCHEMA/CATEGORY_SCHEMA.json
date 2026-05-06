@@ -1,0 +1,144 @@
+{
+    "version":  "0.2",
+    "updated_at":  "2026-05-07T00:00:00+08:00",
+    "primary_categories":  [
+                               {
+                                   "id":  "YOGA",
+                                   "name_zh":  "瑜珈",
+                                   "name_en":  "Yoga",
+                                   "description":  "瑜珈體式、動作、姿勢品質、風險與教學參考圖。",
+                                   "default_tags":  [
+                                                        "single_person",
+                                                        "two_person",
+                                                        "pose_source",
+                                                        "front_view",
+                                                        "side_view",
+                                                        "good_alignment",
+                                                        "needs_review",
+                                                        "reference_image",
+                                                        "training_sample"
+                                                    ],
+                                   "data_roots":  {
+                                                      "source_data":  "D:\\20_IMAGE_ANALYSIS_TOOL\\30_CATALOG\\YOGA\\00_DATA",
+                                                      "config":  "D:\\20_IMAGE_ANALYSIS_TOOL\\30_CATALOG\\YOGA\\10_CONFIG",
+                                                      "catalog_input":  "D:\\20_IMAGE_ANALYSIS_TOOL\\30_CATALOG\\YOGA\\15_YOGA_INPUT",
+                                                      "all_input":  "D:\\20_IMAGE_ANALYSIS_TOOL\\40_ALL_INPUT",
+                                                      "analysis_output":  "D:\\20_IMAGE_ANALYSIS_TOOL\\30_CATALOG\\YOGA\\20_ANALYSIS_RESULT",
+                                                      "analysis_json":  "D:\\20_IMAGE_ANALYSIS_TOOL\\30_CATALOG\\YOGA\\20_ANALYSIS_RESULT\\analysis_json",
+                                                      "db":  "D:\\20_IMAGE_ANALYSIS_TOOL\\30_CATALOG\\YOGA\\30_DB",
+                                                      "rag":  "D:\\20_IMAGE_ANALYSIS_TOOL\\30_CATALOG\\YOGA\\40_RAG",
+                                                      "tag":  "D:\\20_IMAGE_ANALYSIS_TOOL\\30_CATALOG\\YOGA\\50_TAG",
+                                                      "raw_pdf":  "D:\\20_IMAGE_ANALYSIS_TOOL\\30_CATALOG\\YOGA\\00_DATA\\10_RAW_PDF",
+                                                      "raw_image":  "D:\\20_IMAGE_ANALYSIS_TOOL\\30_CATALOG\\YOGA\\00_DATA\\20_RAW_IMAGE",
+                                                      "reference_pose":  "D:\\20_IMAGE_ANALYSIS_TOOL\\30_CATALOG\\YOGA\\00_DATA\\30_REFERENCE_POSE",
+                                                      "config_suggestions":  "D:\\20_IMAGE_ANALYSIS_TOOL\\30_CATALOG\\YOGA\\20_ANALYSIS_RESULT\\config_suggestions",
+                                                      "vector_index":  "D:\\20_IMAGE_ANALYSIS_TOOL\\30_CATALOG\\YOGA\\40_RAG\\vector_index",
+                                                      "auto_tags":  "D:\\20_IMAGE_ANALYSIS_TOOL\\30_CATALOG\\YOGA\\50_TAG\\auto_tags"
+                                                  }
+                               },
+                               {
+                                   "id":  "LIAO_PHOTO",
+                                   "name_zh":  "LIAO 照片",
+                                   "name_en":  "LIAO Photo",
+                                   "description":  "個人照片、生活影像、素材照片與非瑜珈圖像管理。",
+                                   "default_tags":  [
+                                                        "single_person",
+                                                        "two_person",
+                                                        "multi_person",
+                                                        "clear",
+                                                        "blurry",
+                                                        "favorite",
+                                                        "need_review",
+                                                        "analysis_target"
+                                                    ],
+                                   "data_roots":  {
+                                                      "source_data":  "D:\\20_IMAGE_ANALYSIS_TOOL\\30_CATALOG\\LIAO_PHOTO\\00_DATA",
+                                                      "config":  "D:\\20_IMAGE_ANALYSIS_TOOL\\30_CATALOG\\LIAO_PHOTO\\10_CONFIG",
+                                                      "catalog_input":  "D:\\20_IMAGE_ANALYSIS_TOOL\\30_CATALOG\\LIAO_PHOTO\\15_LIAO_PHOTO_INPUT",
+                                                      "all_input":  "D:\\20_IMAGE_ANALYSIS_TOOL\\40_ALL_INPUT",
+                                                      "analysis_output":  "D:\\20_IMAGE_ANALYSIS_TOOL\\30_CATALOG\\LIAO_PHOTO\\20_ANALYSIS_RESULT",
+                                                      "analysis_json":  "D:\\20_IMAGE_ANALYSIS_TOOL\\30_CATALOG\\LIAO_PHOTO\\20_ANALYSIS_RESULT\\analysis_json",
+                                                      "db":  "D:\\20_IMAGE_ANALYSIS_TOOL\\30_CATALOG\\LIAO_PHOTO\\30_DB",
+                                                      "rag":  "D:\\20_IMAGE_ANALYSIS_TOOL\\30_CATALOG\\LIAO_PHOTO\\40_RAG",
+                                                      "tag":  "D:\\20_IMAGE_ANALYSIS_TOOL\\30_CATALOG\\LIAO_PHOTO\\50_TAG",
+                                                      "config_suggestions":  "D:\\20_IMAGE_ANALYSIS_TOOL\\30_CATALOG\\LIAO_PHOTO\\20_ANALYSIS_RESULT\\config_suggestions",
+                                                      "vector_index":  "D:\\20_IMAGE_ANALYSIS_TOOL\\30_CATALOG\\LIAO_PHOTO\\40_RAG\\vector_index",
+                                                      "auto_tags":  "D:\\20_IMAGE_ANALYSIS_TOOL\\30_CATALOG\\LIAO_PHOTO\\50_TAG\\auto_tags"
+                                                  }
+                               },
+                               {
+                                   "id":  "ANATOMY",
+                                   "name_zh":  "人體解剖",
+                                   "name_en":  "Anatomy",
+                                   "description":  "人體骨骼、肌肉、關節、姿勢對位與運動風險分析。",
+                                   "default_tags":  [
+                                                        "skeleton",
+                                                        "muscle",
+                                                        "joint",
+                                                        "spine",
+                                                        "shoulder",
+                                                        "hip",
+                                                        "knee",
+                                                        "alignment_reference",
+                                                        "risk_reference",
+                                                        "needs_review"
+                                                    ],
+                                   "data_roots":  {
+                                                      "source_data":  "D:\\20_IMAGE_ANALYSIS_TOOL\\30_CATALOG\\ANATOMY\\00_DATA",
+                                                      "config":  "D:\\20_IMAGE_ANALYSIS_TOOL\\30_CATALOG\\ANATOMY\\10_CONFIG",
+                                                      "catalog_input":  "D:\\20_IMAGE_ANALYSIS_TOOL\\30_CATALOG\\ANATOMY\\15_ANATOMY_INPUT",
+                                                      "all_input":  "D:\\20_IMAGE_ANALYSIS_TOOL\\40_ALL_INPUT",
+                                                      "analysis_output":  "D:\\20_IMAGE_ANALYSIS_TOOL\\30_CATALOG\\ANATOMY\\20_ANALYSIS_RESULT",
+                                                      "analysis_json":  "D:\\20_IMAGE_ANALYSIS_TOOL\\30_CATALOG\\ANATOMY\\20_ANALYSIS_RESULT\\analysis_json",
+                                                      "db":  "D:\\20_IMAGE_ANALYSIS_TOOL\\30_CATALOG\\ANATOMY\\30_DB",
+                                                      "rag":  "D:\\20_IMAGE_ANALYSIS_TOOL\\30_CATALOG\\ANATOMY\\40_RAG",
+                                                      "tag":  "D:\\20_IMAGE_ANALYSIS_TOOL\\30_CATALOG\\ANATOMY\\50_TAG",
+                                                      "config_suggestions":  "D:\\20_IMAGE_ANALYSIS_TOOL\\30_CATALOG\\ANATOMY\\20_ANALYSIS_RESULT\\config_suggestions",
+                                                      "vector_index":  "D:\\20_IMAGE_ANALYSIS_TOOL\\30_CATALOG\\ANATOMY\\40_RAG\\vector_index",
+                                                      "auto_tags":  "D:\\20_IMAGE_ANALYSIS_TOOL\\30_CATALOG\\ANATOMY\\50_TAG\\auto_tags"
+                                                  }
+                               },
+                               {
+                                   "id":  "INTERIOR_DESIGN",
+                                   "name_zh":  "室內設計",
+                                   "name_en":  "Interior Design",
+                                   "description":  "室內空間、風格、材質、家具、色彩與設計參考圖。",
+                                   "default_tags":  [
+                                                        "living_room",
+                                                        "bedroom",
+                                                        "kitchen",
+                                                        "bathroom",
+                                                        "material_reference",
+                                                        "color_palette",
+                                                        "furniture",
+                                                        "lighting",
+                                                        "style_reference",
+                                                        "needs_review"
+                                                    ],
+                                   "data_roots":  {
+                                                      "source_data":  "D:\\20_IMAGE_ANALYSIS_TOOL\\30_CATALOG\\INTERIOR_DESIGN\\00_DATA",
+                                                      "config":  "D:\\20_IMAGE_ANALYSIS_TOOL\\30_CATALOG\\INTERIOR_DESIGN\\10_CONFIG",
+                                                      "catalog_input":  "D:\\20_IMAGE_ANALYSIS_TOOL\\30_CATALOG\\INTERIOR_DESIGN\\15_INTERIOR_DESIGN_INPUT",
+                                                      "all_input":  "D:\\20_IMAGE_ANALYSIS_TOOL\\40_ALL_INPUT",
+                                                      "analysis_output":  "D:\\20_IMAGE_ANALYSIS_TOOL\\30_CATALOG\\INTERIOR_DESIGN\\20_ANALYSIS_RESULT",
+                                                      "analysis_json":  "D:\\20_IMAGE_ANALYSIS_TOOL\\30_CATALOG\\INTERIOR_DESIGN\\20_ANALYSIS_RESULT\\analysis_json",
+                                                      "db":  "D:\\20_IMAGE_ANALYSIS_TOOL\\30_CATALOG\\INTERIOR_DESIGN\\30_DB",
+                                                      "rag":  "D:\\20_IMAGE_ANALYSIS_TOOL\\30_CATALOG\\INTERIOR_DESIGN\\40_RAG",
+                                                      "tag":  "D:\\20_IMAGE_ANALYSIS_TOOL\\30_CATALOG\\INTERIOR_DESIGN\\50_TAG",
+                                                      "config_suggestions":  "D:\\20_IMAGE_ANALYSIS_TOOL\\30_CATALOG\\INTERIOR_DESIGN\\20_ANALYSIS_RESULT\\config_suggestions",
+                                                      "vector_index":  "D:\\20_IMAGE_ANALYSIS_TOOL\\30_CATALOG\\INTERIOR_DESIGN\\40_RAG\\vector_index",
+                                                      "auto_tags":  "D:\\20_IMAGE_ANALYSIS_TOOL\\30_CATALOG\\INTERIOR_DESIGN\\50_TAG\\auto_tags"
+                                                  }
+                               }
+                           ],
+    "rules":  [
+                  "40_ALL_INPUT 是全域未分類入口，使用者雜亂上傳圖片先進此處。",
+                  "系統先判斷 primary_category：ANATOMY / INTERIOR_DESIGN / LIAO_PHOTO / YOGA。",
+                  "確認分類後，圖片移入 30_CATALOG\\{CATEGORY}\\15_{CATEGORY}_INPUT。",
+                  "30_CATALOG\\{CATEGORY}\\00_DATA 是來源標準資料，不作為一般待分析入口。",
+                  "30_CATALOG\\{CATEGORY}\\10_CONFIG 是分類規則、標籤規則與圖名對照。",
+                  "analysis_engine.analyze_image(image_path, category) 產生 OUTPUT / DB / RAG / TAG。"
+              ],
+    "storage_policy":  "D:\\20_IMAGE_ANALYSIS_TOOL\\20_CONFIG\\10_SCHEMA\\STORAGE_POLICY.json",
+    "storage_mode_note_zh":  "目前使用本機工作區；未來 30_CATALOG 與 40_ALL_INPUT 正式資料搬到 NAS。"
+}

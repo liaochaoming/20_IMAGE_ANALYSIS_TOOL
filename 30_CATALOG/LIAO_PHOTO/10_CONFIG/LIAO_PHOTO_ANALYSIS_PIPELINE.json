@@ -1,0 +1,39 @@
+{
+  "version": "0.1",
+  "category_id": "LIAO_PHOTO",
+  "updated_at": "2026-05-07T00:00:00+08:00",
+  "paths": {
+    "tool_root": "D:\\20_IMAGE_ANALYSIS_TOOL",
+    "category_root": "D:\\20_IMAGE_ANALYSIS_TOOL\\30_CATALOG\\LIAO_PHOTO",
+    "source_data_dir": "D:\\20_IMAGE_ANALYSIS_TOOL\\30_CATALOG\\LIAO_PHOTO\\00_DATA",
+    "config_dir": "D:\\20_IMAGE_ANALYSIS_TOOL\\30_CATALOG\\LIAO_PHOTO\\10_CONFIG",
+    "input_dir": "D:\\20_IMAGE_ANALYSIS_TOOL\\30_CATALOG\\LIAO_PHOTO\\15_LIAO_PHOTO_INPUT",
+    "output_dir": "D:\\20_IMAGE_ANALYSIS_TOOL\\30_CATALOG\\LIAO_PHOTO\\20_ANALYSIS_RESULT",
+    "analysis_json_dir": "D:\\20_IMAGE_ANALYSIS_TOOL\\30_CATALOG\\LIAO_PHOTO\\20_ANALYSIS_RESULT\\analysis_json",
+    "config_suggestions_dir": "D:\\20_IMAGE_ANALYSIS_TOOL\\30_CATALOG\\LIAO_PHOTO\\20_ANALYSIS_RESULT\\config_suggestions",
+    "db_path": "D:\\20_IMAGE_ANALYSIS_TOOL\\30_CATALOG\\LIAO_PHOTO\\30_DB\\image_index.duckdb",
+    "rag_dir": "D:\\20_IMAGE_ANALYSIS_TOOL\\30_CATALOG\\LIAO_PHOTO\\40_RAG\\vector_index",
+    "tag_dir": "D:\\20_IMAGE_ANALYSIS_TOOL\\30_CATALOG\\LIAO_PHOTO\\50_TAG",
+    "auto_tag_dir": "D:\\20_IMAGE_ANALYSIS_TOOL\\30_CATALOG\\LIAO_PHOTO\\50_TAG\\auto_tags",
+    "log_dir": "D:\\20_IMAGE_ANALYSIS_TOOL\\99_LOG\\ASSET_MANAGER"
+  },
+  "models": {
+    "vision_llm": "qwen3-vl:32b"
+  },
+  "steps": {
+    "file_inventory": true,
+    "yolo_pose": false,
+    "mediapipe": false,
+    "vision_llm": false,
+    "duckdb": false,
+    "rag": false,
+    "auto_tag": true,
+    "config_suggestions": true
+  },
+  "rules": {
+    "do_not_modify_formal_config": true,
+    "model_config_suggestions_only": true,
+    "empty_input_is_success": true,
+    "supported_extensions": [".jpg", ".jpeg", ".png", ".webp", ".bmp"]
+  }
+}

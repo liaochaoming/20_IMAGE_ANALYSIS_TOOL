@@ -1,0 +1,35 @@
+{
+  "version": "0.1",
+  "category_id": "YOGA",
+  "updated_at": "2026-05-07T00:00:00+08:00",
+  "principle": "10_CONFIG stores allowed tags and rules. 50_TAG stores actual per-image tag results.",
+  "tag_groups": {
+    "category": ["YOGA"],
+    "source": ["user_upload", "source_pdf", "source_image", "reference_pose", "all_input"],
+    "visual": ["single_person", "two_person", "multi_person", "no_person", "front_view", "side_view", "back_view", "unknown_view"],
+    "pose_type": ["standing_pose", "seated_pose", "kneeling_pose", "forward_bend", "backbend", "twist", "balance", "inversion", "unknown_pose"],
+    "quality": ["clear", "blurry", "partial_body", "low_confidence", "needs_review"],
+    "status": ["unprocessed", "analyzed", "needs_review", "confirmed", "rejected"]
+  },
+  "auto_tag_rules": {
+    "person_count": {
+      "0": "no_person",
+      "1": "single_person",
+      "2": "two_person",
+      "3_or_more": "multi_person"
+    },
+    "default_tags": {
+      "source": ["user_upload"],
+      "status": ["analyzed"]
+    },
+    "review_rules": {
+      "yolo_missing_person": ["needs_review", "unknown_pose", "unknown_view"],
+      "low_pose_confidence": ["needs_review", "low_confidence"]
+    }
+  },
+  "formal_config_policy": {
+    "model_may_suggest_new_tags": true,
+    "model_must_not_overwrite_this_file": true,
+    "suggestions_dir": "D:\\20_IMAGE_ANALYSIS_TOOL\\30_CATALOG\\YOGA\\20_ANALYSIS_RESULT\\config_suggestions"
+  }
+}

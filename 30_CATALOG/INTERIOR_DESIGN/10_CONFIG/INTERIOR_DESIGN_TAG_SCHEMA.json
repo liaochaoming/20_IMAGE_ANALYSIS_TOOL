@@ -1,0 +1,34 @@
+{
+  "version": "0.1",
+  "category_id": "INTERIOR_DESIGN",
+  "updated_at": "2026-05-07T00:00:00+08:00",
+  "principle": "10_CONFIG stores allowed tags and rules. 50_TAG stores actual per-image tag results.",
+  "tag_groups": {
+    "category": ["INTERIOR_DESIGN"],
+    "source": ["user_upload", "source_image", "reference_design", "all_input"],
+    "space_type": ["living_room", "bedroom", "kitchen", "bathroom", "office", "dining_room", "entryway", "unknown_space"],
+    "design_domain": ["material_reference", "color_palette", "furniture", "lighting", "style_reference", "layout_reference", "unknown_design"],
+    "quality": ["clear", "blurry", "low_confidence", "needs_review"],
+    "status": ["unprocessed", "analyzed", "needs_review", "confirmed", "rejected"]
+  },
+  "auto_tag_rules": {
+    "person_count": {
+      "0": "no_person",
+      "1": "single_person",
+      "2": "two_person",
+      "3_or_more": "multi_person"
+    },
+    "default_tags": {
+      "source": ["user_upload"],
+      "status": ["analyzed"]
+    },
+    "review_rules": {
+      "insufficient_domain_signal": ["needs_review", "unknown_design", "unknown_space"]
+    }
+  },
+  "formal_config_policy": {
+    "model_may_suggest_new_tags": true,
+    "model_must_not_overwrite_this_file": true,
+    "suggestions_dir": "D:\\20_IMAGE_ANALYSIS_TOOL\\30_CATALOG\\INTERIOR_DESIGN\\20_ANALYSIS_RESULT\\config_suggestions"
+  }
+}

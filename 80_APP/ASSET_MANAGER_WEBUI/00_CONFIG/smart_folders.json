@@ -1,0 +1,20 @@
+[
+  {
+    "name": "五星素材",
+    "field": "rating",
+    "operator": "等於",
+    "value": "5"
+  },
+  {
+    "name": "已收藏",
+    "field": "favorite",
+    "operator": "等於",
+    "value": "yes"
+  },
+  {
+    "name": "瑜珈素材",
+    "field": "asset_type",
+    "operator": "等於",
+    "value": "yoga_pose"
+  }
+]

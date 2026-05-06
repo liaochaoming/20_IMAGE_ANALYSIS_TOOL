@@ -1,0 +1,34 @@
+{
+  "version": "0.1",
+  "category_id": "LIAO_PHOTO",
+  "updated_at": "2026-05-07T00:00:00+08:00",
+  "principle": "10_CONFIG stores allowed tags and rules. 50_TAG stores actual per-image tag results.",
+  "tag_groups": {
+    "category": ["LIAO_PHOTO"],
+    "source": ["user_upload", "camera_photo", "screenshot", "all_input"],
+    "visual": ["single_person", "two_person", "multi_person", "no_person", "portrait", "group_photo", "landscape", "unknown_view"],
+    "photo_quality": ["clear", "blurry", "dark", "overexposed", "duplicate_candidate", "favorite", "needs_review"],
+    "usage": ["archive", "reference", "share_candidate", "delete_candidate", "unknown_usage"],
+    "status": ["unprocessed", "analyzed", "needs_review", "confirmed", "rejected"]
+  },
+  "auto_tag_rules": {
+    "person_count": {
+      "0": "no_person",
+      "1": "single_person",
+      "2": "two_person",
+      "3_or_more": "multi_person"
+    },
+    "default_tags": {
+      "source": ["user_upload"],
+      "status": ["analyzed"]
+    },
+    "review_rules": {
+      "insufficient_domain_signal": ["needs_review", "unknown_usage"]
+    }
+  },
+  "formal_config_policy": {
+    "model_may_suggest_new_tags": true,
+    "model_must_not_overwrite_this_file": true,
+    "suggestions_dir": "D:\\20_IMAGE_ANALYSIS_TOOL\\30_CATALOG\\LIAO_PHOTO\\20_ANALYSIS_RESULT\\config_suggestions"
+  }
+}

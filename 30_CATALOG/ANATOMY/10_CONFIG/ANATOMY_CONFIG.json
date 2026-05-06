@@ -1,0 +1,16 @@
+{
+  "domain": "ANATOMY",
+  "name_zh": "人體解剖",
+  "version": "0.1",
+  "description_zh": "人體骨骼、肌肉、關節、動作與風險參考的分類與標籤設定。",
+  "tag_groups": [
+    "body_system",
+    "body_part",
+    "muscle_group",
+    "joint",
+    "movement",
+    "risk",
+    "usage"
+  ],
+  "updated_at": "2026-05-06T16:41:20"
+}

@@ -1,0 +1,16 @@
+{
+  "domain": "INTERIOR_DESIGN",
+  "name_zh": "室內設計",
+  "version": "0.1",
+  "description_zh": "室內空間、風格、材質、家具、色彩與燈光參考的分類與標籤設定。",
+  "tag_groups": [
+    "room_type",
+    "design_style",
+    "material",
+    "color_palette",
+    "furniture",
+    "lighting",
+    "usage"
+  ],
+  "updated_at": "2026-05-06T16:41:20"
+}

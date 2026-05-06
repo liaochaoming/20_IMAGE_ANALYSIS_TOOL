@@ -1,0 +1,22 @@
+{
+    "tool_root":  "D:\\20_IMAGE_ANALYSIS_TOOL",
+    "venv":  "D:\\20_IMAGE_ANALYSIS_TOOL\\.venv",
+    "app":  "D:\\20_IMAGE_ANALYSIS_TOOL\\80_APP\\ASSET_MANAGER_WEBUI",
+    "scripts":  "D:\\20_IMAGE_ANALYSIS_TOOL\\70_SCRIPT",
+    "config":  "D:\\20_IMAGE_ANALYSIS_TOOL\\80_APP\\ASSET_MANAGER_WEBUI\\00_CONFIG",
+    "data":  "D:\\20_IMAGE_ANALYSIS_TOOL\\30_CATALOG\\YOGA\\00_DATA",
+    "images":  "D:\\20_IMAGE_ANALYSIS_TOOL\\30_CATALOG\\YOGA\\00_DATA\\20_RAW_IMAGE",
+    "pdf":  "D:\\20_IMAGE_ANALYSIS_TOOL\\30_CATALOG\\YOGA\\00_DATA\\10_RAW_PDF",
+    "input":  "D:\\20_IMAGE_ANALYSIS_TOOL\\40_ALL_INPUT",
+    "analysis_input":  "D:\\20_IMAGE_ANALYSIS_TOOL\\30_CATALOG\\YOGA\\15_YOGA_INPUT",
+    "output":  "D:\\20_IMAGE_ANALYSIS_TOOL\\30_CATALOG\\YOGA\\20_ANALYSIS_RESULT",
+    "db":  "D:\\20_IMAGE_ANALYSIS_TOOL\\30_CATALOG\\YOGA\\30_DB",
+    "rag":  "D:\\20_IMAGE_ANALYSIS_TOOL\\30_CATALOG\\YOGA\\40_RAG",
+    "logs":  "D:\\20_IMAGE_ANALYSIS_TOOL\\99_LOG\\ASSET_MANAGER",
+    "model_root":  "D:\\30_AI_MODEL",
+    "yolo_pose":  "D:\\30_AI_MODEL\\YOLO_POSE",
+    "yolo_pose_models":  "D:\\30_AI_MODEL\\YOLO_POSE\\models",
+    "mediapipe":  "D:\\30_AI_MODEL\\MEDIAPIPE",
+    "ollama":  "D:\\30_AI_MODEL\\OLLAMA_MODELS"
+}
+

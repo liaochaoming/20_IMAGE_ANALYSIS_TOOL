@@ -1,0 +1,4812 @@
+{
+  "version": "0.1",
+  "count": 257,
+  "items": [
+    {
+      "tag": "tadasana",
+      "canonical_name": "Tadasana",
+      "zh_name": "",
+      "category": "asana",
+      "source_pages": [
+        {
+          "source_id": "pdf1",
+          "pdf": "Iyangar 瑜珈之光PDF1精.pdf",
+          "page": 44
+        },
+        {
+          "source_id": "pdf3",
+          "pdf": "Iyangar 瑜珈之光PDF3精.pdf",
+          "page": 106
+        }
+      ],
+      "figures": [],
+      "aliases": [],
+      "auto_label_enabled": true,
+      "needs_review": true
+    },
+    {
+      "tag": "padottanasana_i",
+      "canonical_name": "Padottanasana I",
+      "zh_name": "",
+      "category": "asana",
+      "source_pages": [
+        {
+          "source_id": "pdf1",
+          "pdf": "Iyangar 瑜珈之光PDF1精.pdf",
+          "page": 62
+        }
+      ],
+      "figures": [
+        "33、34",
+        "1",
+        "29",
+        "30",
+        "31",
+        "32",
+        "33",
+        "34"
+      ],
+      "aliases": [],
+      "auto_label_enabled": true,
+      "needs_review": true
+    },
+    {
+      "tag": "ardha_baddha_padmottanasana",
+      "canonical_name": "Ardha Baddha Padmottanasana",
+      "zh_name": "",
+      "category": "asana",
+      "source_pages": [
+        {
+          "source_id": "pdf1",
+          "pdf": "Iyangar 瑜珈之光PDF1精.pdf",
+          "page": 72
+        },
+        {
+          "source_id": "pdf3",
+          "pdf": "Iyangar 瑜珈之光PDF3精.pdf",
+          "page": 107
+        }
+      ],
+      "figures": [
+        "1",
+        "50",
+        "51",
+        "52"
+      ],
+      "aliases": [],
+      "auto_label_enabled": true,
+      "needs_review": true
+    },
+    {
+      "tag": "i_makarasana",
+      "canonical_name": "I Makarasana",
+      "zh_name": "",
+      "category": "asana",
+      "source_pages": [
+        {
+          "source_id": "pdf1",
+          "pdf": "Iyangar 瑜珈之光PDF1精.pdf",
+          "page": 77
+        }
+      ],
+      "figures": [],
+      "aliases": [],
+      "auto_label_enabled": true,
+      "needs_review": true
+    },
+    {
+      "tag": "i_chaturanga_dandasana_i",
+      "canonical_name": "I Chaturanga Dandasana I",
+      "zh_name": "",
+      "category": "asana",
+      "source_pages": [
+        {
+          "source_id": "pdf1",
+          "pdf": "Iyangar 瑜珈之光PDF1精.pdf",
+          "page": 80
+        }
+      ],
+      "figures": [
+        "67"
+      ],
+      "aliases": [],
+      "auto_label_enabled": true,
+      "needs_review": true
+    },
+    {
+      "tag": "svanasana_i",
+      "canonical_name": "Svanasana I",
+      "zh_name": "",
+      "category": "asana",
+      "source_pages": [
+        {
+          "source_id": "pdf1",
+          "pdf": "Iyangar 瑜珈之光PDF1精.pdf",
+          "page": 85
+        }
+      ],
+      "figures": [
+        "75",
+        "76",
+        "184"
+      ],
+      "aliases": [],
+      "auto_label_enabled": true,
+      "needs_review": true
+    },
+    {
+      "tag": "bhekasana",
+      "canonical_name": "Bhekasana",
+      "zh_name": "",
+      "category": "asana",
+      "source_pages": [
+        {
+          "source_id": "pdf1",
+          "pdf": "Iyangar 瑜珈之光PDF1精.pdf",
+          "page": 101
+        },
+        {
+          "source_id": "pdf3",
+          "pdf": "Iyangar 瑜珈之光PDF3精.pdf",
+          "page": 107
+        }
+      ],
+      "figures": [
+        "98",
+        "100",
+        "89"
+      ],
+      "aliases": [],
+      "auto_label_enabled": true,
+      "needs_review": true
+    },
+    {
+      "tag": "mandukasana_i",
+      "canonical_name": "Mandukasana I",
+      "zh_name": "",
+      "category": "asana",
+      "source_pages": [
+        {
+          "source_id": "pdf1",
+          "pdf": "Iyangar 瑜珈之光PDF1精.pdf",
+          "page": 101
+        }
+      ],
+      "figures": [
+        "98",
+        "100",
+        "89"
+      ],
+      "aliases": [],
+      "auto_label_enabled": true,
+      "needs_review": true
+    },
+    {
+      "tag": "parangmukhi_mudra",
+      "canonical_name": "Parangmukhi Mudra",
+      "zh_name": "Parangmukhi Mudra",
+      "category": "asana",
+      "source_pages": [
+        {
+          "source_id": "pdf1",
+          "pdf": "Iyangar 瑜珈之光PDF1精.pdf",
+          "page": 106
+        }
+      ],
+      "figures": [
+        "104",
+        "106"
+      ],
+      "aliases": [],
+      "auto_label_enabled": true,
+      "needs_review": true
+    },
+    {
+      "tag": "sambhavi_mudra",
+      "canonical_name": "Sambhavi Mudra",
+      "zh_name": "Parangmukhi Mudra",
+      "category": "asana",
+      "source_pages": [
+        {
+          "source_id": "pdf1",
+          "pdf": "Iyangar 瑜珈之光PDF1精.pdf",
+          "page": 106
+        }
+      ],
+      "figures": [
+        "104",
+        "106"
+      ],
+      "aliases": [],
+      "auto_label_enabled": true,
+      "needs_review": true
+    },
+    {
+      "tag": "yoni_mudra",
+      "canonical_name": "Yoni Mudra",
+      "zh_name": "Parangmukhi Mudra",
+      "category": "asana",
+      "source_pages": [
+        {
+          "source_id": "pdf1",
+          "pdf": "Iyangar 瑜珈之光PDF1精.pdf",
+          "page": 106
+        }
+      ],
+      "figures": [
+        "104",
+        "106"
+      ],
+      "aliases": [],
+      "auto_label_enabled": true,
+      "needs_review": true
+    },
+    {
+      "tag": "sirsasana_i",
+      "canonical_name": "Sirsasana I",
+      "zh_name": "",
+      "category": "asana",
+      "source_pages": [
+        {
+          "source_id": "pdf1",
+          "pdf": "Iyangar 瑜珈之光PDF1精.pdf",
+          "page": 124
+        },
+        {
+          "source_id": "pdf2",
+          "pdf": "Iyangar 瑜珈之光PDF2精.pdf",
+          "page": 17
+        }
+      ],
+      "figures": [
+        "77",
+        "130",
+        "131",
+        "132",
+        "205",
+        "202",
+        "204",
+        "206",
+        "207"
+      ],
+      "aliases": [],
+      "auto_label_enabled": true,
+      "needs_review": true
+    },
+    {
+      "tag": "paschimottanasana_i",
+      "canonical_name": "Paschimottanasana I",
+      "zh_name": "或者嘴",
+      "category": "asana",
+      "source_pages": [
+        {
+          "source_id": "pdf1",
+          "pdf": "Iyangar 瑜珈之光PDF1精.pdf",
+          "page": 128
+        },
+        {
+          "source_id": "pdf1",
+          "pdf": "Iyangar 瑜珈之光PDF1精.pdf",
+          "page": 141
+        }
+      ],
+      "figures": [
+        "160",
+        "77",
+        "138",
+        "1",
+        "163",
+        "164",
+        "165",
+        "166"
+      ],
+      "aliases": [],
+      "auto_label_enabled": true,
+      "needs_review": true
+    },
+    {
+      "tag": "salamba_sirsasana_i",
+      "canonical_name": "Salamba Sirsasana I",
+      "zh_name": "",
+      "category": "asana",
+      "source_pages": [
+        {
+          "source_id": "pdf2",
+          "pdf": "Iyangar 瑜珈之光PDF2精.pdf",
+          "page": 4
+        },
+        {
+          "source_id": "pdf3",
+          "pdf": "Iyangar 瑜珈之光PDF3精.pdf",
+          "page": 109
+        }
+      ],
+      "figures": [
+        "1",
+        "176",
+        "177",
+        "179",
+        "182",
+        "183"
+      ],
+      "aliases": [],
+      "auto_label_enabled": true,
+      "needs_review": true
+    },
+    {
+      "tag": "salamba_sirsasana_ii",
+      "canonical_name": "Salamba Sirsasana II",
+      "zh_name": "",
+      "category": "asana",
+      "source_pages": [
+        {
+          "source_id": "pdf2",
+          "pdf": "Iyangar 瑜珈之光PDF2精.pdf",
+          "page": 12
+        },
+        {
+          "source_id": "pdf3",
+          "pdf": "Iyangar 瑜珈之光PDF3精.pdf",
+          "page": 109
+        }
+      ],
+      "figures": [
+        "192",
+        "410",
+        "419",
+        "427",
+        "428",
+        "438"
+      ],
+      "aliases": [],
+      "auto_label_enabled": true,
+      "needs_review": true
+    },
+    {
+      "tag": "i_salamba_sirsasana",
+      "canonical_name": "I Salamba Sirsasana",
+      "zh_name": "",
+      "category": "asana",
+      "source_pages": [
+        {
+          "source_id": "pdf2",
+          "pdf": "Iyangar 瑜珈之光PDF2精.pdf",
+          "page": 13
+        }
+      ],
+      "figures": [
+        "193",
+        "194",
+        "195",
+        "196",
+        "197"
+      ],
+      "aliases": [],
+      "auto_label_enabled": true,
+      "needs_review": true
+    },
+    {
+      "tag": "i_baddha_hasta_sirsasana_i",
+      "canonical_name": "I Baddha Hasta Sirsasana I",
+      "zh_name": "",
+      "category": "asana",
+      "source_pages": [
+        {
+          "source_id": "pdf2",
+          "pdf": "Iyangar 瑜珈之光PDF2精.pdf",
+          "page": 14
+        }
+      ],
+      "figures": [
+        "198"
+      ],
+      "aliases": [],
+      "auto_label_enabled": true,
+      "needs_review": true
+    },
+    {
+      "tag": "hasta_sirsasana_i",
+      "canonical_name": "Hasta Sirsasana I",
+      "zh_name": "",
+      "category": "asana",
+      "source_pages": [
+        {
+          "source_id": "pdf2",
+          "pdf": "Iyangar 瑜珈之光PDF2精.pdf",
+          "page": 15
+        }
+      ],
+      "figures": [
+        "199",
+        "200",
+        "201"
+      ],
+      "aliases": [],
+      "auto_label_enabled": true,
+      "needs_review": true
+    },
+    {
+      "tag": "i_parsvaika_pada_sirsasana_i",
+      "canonical_name": "I Parsvaika Pada Sirsasana I",
+      "zh_name": "",
+      "category": "asana",
+      "source_pages": [
+        {
+          "source_id": "pdf2",
+          "pdf": "Iyangar 瑜珈之光PDF2精.pdf",
+          "page": 20
+        }
+      ],
+      "figures": [
+        "208",
+        "209",
+        "210"
+      ],
+      "aliases": [],
+      "auto_label_enabled": true,
+      "needs_review": true
+    },
+    {
+      "tag": "i_urdhva_padmasana_in_sirsasana",
+      "canonical_name": "I Urdhva Padmasana in Sirsasana",
+      "zh_name": "蓮花座",
+      "category": "asana",
+      "source_pages": [
+        {
+          "source_id": "pdf2",
+          "pdf": "Iyangar 瑜珈之光PDF2精.pdf",
+          "page": 21
+        }
+      ],
+      "figures": [
+        "208",
+        "209",
+        "210",
+        "211",
+        "212"
+      ],
+      "aliases": [],
+      "auto_label_enabled": true,
+      "needs_review": true
+    },
+    {
+      "tag": "padmasana",
+      "canonical_name": "Padmasana",
+      "zh_name": "蓮花座",
+      "category": "asana",
+      "source_pages": [
+        {
+          "source_id": "pdf2",
+          "pdf": "Iyangar 瑜珈之光PDF2精.pdf",
+          "page": 21
+        },
+        {
+          "source_id": "pdf3",
+          "pdf": "Iyangar 瑜珈之光PDF3精.pdf",
+          "page": 108
+        }
+      ],
+      "figures": [
+        "208",
+        "209",
+        "210",
+        "211",
+        "212"
+      ],
+      "aliases": [],
+      "auto_label_enabled": true,
+      "needs_review": true
+    },
+    {
+      "tag": "sirsasana",
+      "canonical_name": "Sirsasana",
+      "zh_name": "",
+      "category": "asana",
+      "source_pages": [
+        {
+          "source_id": "pdf2",
+          "pdf": "Iyangar 瑜珈之光PDF2精.pdf",
+          "page": 22
+        }
+      ],
+      "figures": [],
+      "aliases": [],
+      "auto_label_enabled": true,
+      "needs_review": true
+    },
+    {
+      "tag": "i_pindsana_in_sirsasana_i",
+      "canonical_name": "I Pindsana in Sirsasana I",
+      "zh_name": "倒立蓮花座",
+      "category": "asana",
+      "source_pages": [
+        {
+          "source_id": "pdf2",
+          "pdf": "Iyangar 瑜珈之光PDF2精.pdf",
+          "page": 23
+        }
+      ],
+      "figures": [
+        "211",
+        "217",
+        "218"
+      ],
+      "aliases": [],
+      "auto_label_enabled": true,
+      "needs_review": true
+    },
+    {
+      "tag": "i_salamba_sarvangasana_i",
+      "canonical_name": "I Salamba Sarvangasana I",
+      "zh_name": "",
+      "category": "asana",
+      "source_pages": [
+        {
+          "source_id": "pdf2",
+          "pdf": "Iyangar 瑜珈之光PDF2精.pdf",
+          "page": 24
+        }
+      ],
+      "figures": [
+        "219",
+        "220",
+        "221",
+        "222",
+        "2",
+        "224"
+      ],
+      "aliases": [],
+      "auto_label_enabled": true,
+      "needs_review": true
+    },
+    {
+      "tag": "jalandhara_bandha",
+      "canonical_name": "Jalandhara Bandha",
+      "zh_name": "Jalandhara Bandha",
+      "category": "asana",
+      "source_pages": [
+        {
+          "source_id": "pdf2",
+          "pdf": "Iyangar 瑜珈之光PDF2精.pdf",
+          "page": 25
+        },
+        {
+          "source_id": "pdf3",
+          "pdf": "Iyangar 瑜珈之光PDF3精.pdf",
+          "page": 45
+        }
+      ],
+      "figures": [
+        "219",
+        "226",
+        "227",
+        "228",
+        "229",
+        "230",
+        "231",
+        "232",
+        "233"
+      ],
+      "aliases": [],
+      "auto_label_enabled": true,
+      "needs_review": true
+    },
+    {
+      "tag": "i_salamba_sarvangasana_ii",
+      "canonical_name": "I Salamba Sarvangasana II",
+      "zh_name": "",
+      "category": "asana",
+      "source_pages": [
+        {
+          "source_id": "pdf2",
+          "pdf": "Iyangar 瑜珈之光PDF2精.pdf",
+          "page": 29
+        }
+      ],
+      "figures": [
+        "223",
+        "235"
+      ],
+      "aliases": [],
+      "auto_label_enabled": true,
+      "needs_review": true
+    },
+    {
+      "tag": "niralamba_sarvangasana_i",
+      "canonical_name": "Niralamba Sarvangasana I",
+      "zh_name": "",
+      "category": "asana",
+      "source_pages": [
+        {
+          "source_id": "pdf2",
+          "pdf": "Iyangar 瑜珈之光PDF2精.pdf",
+          "page": 30
+        },
+        {
+          "source_id": "pdf3",
+          "pdf": "Iyangar 瑜珈之光PDF3精.pdf",
+          "page": 109
+        }
+      ],
+      "figures": [
+        "223",
+        "236"
+      ],
+      "aliases": [],
+      "auto_label_enabled": true,
+      "needs_review": true
+    },
+    {
+      "tag": "sarvangasana_ii",
+      "canonical_name": "Sarvangasana II",
+      "zh_name": "",
+      "category": "asana",
+      "source_pages": [
+        {
+          "source_id": "pdf2",
+          "pdf": "Iyangar 瑜珈之光PDF2精.pdf",
+          "page": 31
+        }
+      ],
+      "figures": [
+        "223",
+        "237",
+        "244"
+      ],
+      "aliases": [],
+      "auto_label_enabled": true,
+      "needs_review": true
+    },
+    {
+      "tag": "i_eka_pada_sarvangasana_i",
+      "canonical_name": "I Eka Pada Sarvangasana I",
+      "zh_name": "",
+      "category": "asana",
+      "source_pages": [
+        {
+          "source_id": "pdf2",
+          "pdf": "Iyangar 瑜珈之光PDF2精.pdf",
+          "page": 38
+        }
+      ],
+      "figures": [
+        "223",
+        "250"
+      ],
+      "aliases": [],
+      "auto_label_enabled": true,
+      "needs_review": true
+    },
+    {
+      "tag": "paravaike_pada_sarvangasana_i",
+      "canonical_name": "Paravaike Pada Sarvangasana I",
+      "zh_name": "",
+      "category": "asana",
+      "source_pages": [
+        {
+          "source_id": "pdf2",
+          "pdf": "Iyangar 瑜珈之光PDF2精.pdf",
+          "page": 39
+        }
+      ],
+      "figures": [
+        "250",
+        "251"
+      ],
+      "aliases": [],
+      "auto_label_enabled": true,
+      "needs_review": true
+    },
+    {
+      "tag": "i_setu_bandha",
+      "canonical_name": "I Setu Bandha",
+      "zh_name": "",
+      "category": "asana",
+      "source_pages": [
+        {
+          "source_id": "pdf2",
+          "pdf": "Iyangar 瑜珈之光PDF2精.pdf",
+          "page": 41
+        }
+      ],
+      "figures": [
+        "223",
+        "256",
+        "257",
+        "258",
+        "259"
+      ],
+      "aliases": [],
+      "auto_label_enabled": true,
+      "needs_review": true
+    },
+    {
+      "tag": "sarvangasanasana_i",
+      "canonical_name": "Sarvangasanasana I",
+      "zh_name": "",
+      "category": "asana",
+      "source_pages": [
+        {
+          "source_id": "pdf2",
+          "pdf": "Iyangar 瑜珈之光PDF2精.pdf",
+          "page": 41
+        }
+      ],
+      "figures": [
+        "223",
+        "256",
+        "257",
+        "258",
+        "259"
+      ],
+      "aliases": [],
+      "auto_label_enabled": true,
+      "needs_review": true
+    },
+    {
+      "tag": "uttana_mayurasana",
+      "canonical_name": "Uttana Mayurasana",
+      "zh_name": "",
+      "category": "asana",
+      "source_pages": [
+        {
+          "source_id": "pdf2",
+          "pdf": "Iyangar 瑜珈之光PDF2精.pdf",
+          "page": 41
+        }
+      ],
+      "figures": [
+        "223",
+        "256",
+        "257",
+        "258",
+        "259"
+      ],
+      "aliases": [],
+      "auto_label_enabled": true,
+      "needs_review": true
+    },
+    {
+      "tag": "eka_pada_uttana_mayurasana",
+      "canonical_name": "Eka Pada Uttana Mayurasana",
+      "zh_name": "",
+      "category": "asana",
+      "source_pages": [
+        {
+          "source_id": "pdf2",
+          "pdf": "Iyangar 瑜珈之光PDF2精.pdf",
+          "page": 42
+        }
+      ],
+      "figures": [
+        "2",
+        "260",
+        "223"
+      ],
+      "aliases": [],
+      "auto_label_enabled": true,
+      "needs_review": true
+    },
+    {
+      "tag": "i_eka_pada_setu_bandha",
+      "canonical_name": "I Eka Pada Setu Bandha",
+      "zh_name": "",
+      "category": "asana",
+      "source_pages": [
+        {
+          "source_id": "pdf2",
+          "pdf": "Iyangar 瑜珈之光PDF2精.pdf",
+          "page": 42
+        }
+      ],
+      "figures": [
+        "2",
+        "260",
+        "223"
+      ],
+      "aliases": [],
+      "auto_label_enabled": true,
+      "needs_review": true
+    },
+    {
+      "tag": "sarvangasana_i",
+      "canonical_name": "Sarvangasana I",
+      "zh_name": "",
+      "category": "asana",
+      "source_pages": [
+        {
+          "source_id": "pdf2",
+          "pdf": "Iyangar 瑜珈之光PDF2精.pdf",
+          "page": 42
+        }
+      ],
+      "figures": [
+        "2",
+        "260",
+        "223"
+      ],
+      "aliases": [],
+      "auto_label_enabled": true,
+      "needs_review": true
+    },
+    {
+      "tag": "padma_mayurasana_i",
+      "canonical_name": "Padma Mayurasana I",
+      "zh_name": "肩 立蓮花座",
+      "category": "asana",
+      "source_pages": [
+        {
+          "source_id": "pdf2",
+          "pdf": "Iyangar 瑜珈之光PDF2精.pdf",
+          "page": 44
+        }
+      ],
+      "figures": [],
+      "aliases": [],
+      "auto_label_enabled": true,
+      "needs_review": true
+    },
+    {
+      "tag": "pindasana_in_sarvangasana",
+      "canonical_name": "Pindasana in Sarvangasana",
+      "zh_name": "肩立蓮花座",
+      "category": "asana",
+      "source_pages": [
+        {
+          "source_id": "pdf2",
+          "pdf": "Iyangar 瑜珈之光PDF2精.pdf",
+          "page": 45
+        },
+        {
+          "source_id": "pdf3",
+          "pdf": "Iyangar 瑜珈之光PDF3精.pdf",
+          "page": 110
+        }
+      ],
+      "figures": [
+        "261",
+        "268",
+        "269"
+      ],
+      "aliases": [],
+      "auto_label_enabled": true,
+      "needs_review": true
+    },
+    {
+      "tag": "padasana_i",
+      "canonical_name": "Padasana I",
+      "zh_name": "",
+      "category": "asana",
+      "source_pages": [
+        {
+          "source_id": "pdf2",
+          "pdf": "Iyangar 瑜珈之光PDF2精.pdf",
+          "page": 50
+        }
+      ],
+      "figures": [
+        "219",
+        "276",
+        "277",
+        "27",
+        "279"
+      ],
+      "aliases": [],
+      "auto_label_enabled": true,
+      "needs_review": true
+    },
+    {
+      "tag": "setu_bandha",
+      "canonical_name": "Setu Bandha",
+      "zh_name": "",
+      "category": "asana",
+      "source_pages": [
+        {
+          "source_id": "pdf2",
+          "pdf": "Iyangar 瑜珈之光PDF2精.pdf",
+          "page": 56
+        },
+        {
+          "source_id": "pdf3",
+          "pdf": "Iyangar 瑜珈之光PDF3精.pdf",
+          "page": 109
+        }
+      ],
+      "figures": [
+        "219",
+        "293",
+        "294",
+        "295",
+        "296"
+      ],
+      "aliases": [],
+      "auto_label_enabled": true,
+      "needs_review": true
+    },
+    {
+      "tag": "ardha_matsyendrasana_i",
+      "canonical_name": "Ardha Matsyendrasana I",
+      "zh_name": "Matsye ndra",
+      "category": "asana",
+      "source_pages": [
+        {
+          "source_id": "pdf2",
+          "pdf": "Iyangar 瑜珈之光PDF2精.pdf",
+          "page": 62
+        },
+        {
+          "source_id": "pdf3",
+          "pdf": "Iyangar 瑜珈之光PDF3精.pdf",
+          "page": 110
+        }
+      ],
+      "figures": [
+        "311、312",
+        "336",
+        "339",
+        "77",
+        "307",
+        "308",
+        "309"
+      ],
+      "aliases": [],
+      "auto_label_enabled": true,
+      "needs_review": true
+    },
+    {
+      "tag": "ardha_matsyendrasana_ii",
+      "canonical_name": "Ardha Matsyendrasana II",
+      "zh_name": "",
+      "category": "asana",
+      "source_pages": [
+        {
+          "source_id": "pdf2",
+          "pdf": "Iyangar 瑜珈之光PDF2精.pdf",
+          "page": 69
+        },
+        {
+          "source_id": "pdf3",
+          "pdf": "Iyangar 瑜珈之光PDF3精.pdf",
+          "page": 110
+        }
+      ],
+      "figures": [
+        "311",
+        "77",
+        "330",
+        "331",
+        "336",
+        "339"
+      ],
+      "aliases": [],
+      "auto_label_enabled": true,
+      "needs_review": true
+    },
+    {
+      "tag": "i_ardha_matsyendrasana",
+      "canonical_name": "I Ardha Matsyendrasana",
+      "zh_name": "",
+      "category": "asana",
+      "source_pages": [
+        {
+          "source_id": "pdf2",
+          "pdf": "Iyangar 瑜珈之光PDF2精.pdf",
+          "page": 70
+        }
+      ],
+      "figures": [
+        "332、333",
+        "77",
+        "332",
+        "333",
+        "336",
+        "339"
+      ],
+      "aliases": [],
+      "auto_label_enabled": true,
+      "needs_review": true
+    },
+    {
+      "tag": "matsyendrasana_i",
+      "canonical_name": "Matsyendrasana I",
+      "zh_name": "moon",
+      "category": "asana",
+      "source_pages": [
+        {
+          "source_id": "pdf2",
+          "pdf": "Iyangar 瑜珈之光PDF2精.pdf",
+          "page": 71
+        }
+      ],
+      "figures": [
+        "77",
+        "334",
+        "335",
+        "336"
+      ],
+      "aliases": [],
+      "auto_label_enabled": true,
+      "needs_review": true
+    },
+    {
+      "tag": "eka_hasta_bhujasana_i",
+      "canonical_name": "Eka Hasta Bhujasana I",
+      "zh_name": "",
+      "category": "asana",
+      "source_pages": [
+        {
+          "source_id": "pdf2",
+          "pdf": "Iyangar 瑜珈之光PDF2精.pdf",
+          "page": 76
+        }
+      ],
+      "figures": [
+        "77",
+        "344"
+      ],
+      "aliases": [],
+      "auto_label_enabled": true,
+      "needs_review": true
+    },
+    {
+      "tag": "i_buddhasana",
+      "canonical_name": "I Buddhasana",
+      "zh_name": "",
+      "category": "asana",
+      "source_pages": [
+        {
+          "source_id": "pdf2",
+          "pdf": "Iyangar 瑜珈之光PDF2精.pdf",
+          "page": 90
+        }
+      ],
+      "figures": [
+        "372",
+        "373"
+      ],
+      "aliases": [],
+      "auto_label_enabled": true,
+      "needs_review": true
+    },
+    {
+      "tag": "i_eka_pada_bakasana_ii",
+      "canonical_name": "I Eka Pada Bakasana II",
+      "zh_name": "",
+      "category": "asana",
+      "source_pages": [
+        {
+          "source_id": "pdf2",
+          "pdf": "Iyangar 瑜珈之光PDF2精.pdf",
+          "page": 123
+        }
+      ],
+      "figures": [
+        "451、452",
+        "19",
+        "434",
+        "410",
+        "44",
+        "449",
+        "451",
+        "192",
+        "452",
+        "442"
+      ],
+      "aliases": [],
+      "auto_label_enabled": true,
+      "needs_review": true
+    },
+    {
+      "tag": "supta_trivikramasana",
+      "canonical_name": "Supta Trivikramasana",
+      "zh_name": "Vamanavatar",
+      "category": "asana",
+      "source_pages": [
+        {
+          "source_id": "pdf2",
+          "pdf": "Iyangar 瑜珈之光PDF2精.pdf",
+          "page": 137
+        },
+        {
+          "source_id": "pdf3",
+          "pdf": "Iyangar 瑜珈之光PDF3精.pdf",
+          "page": 112
+        }
+      ],
+      "figures": [
+        "475",
+        "219",
+        "478"
+      ],
+      "aliases": [],
+      "auto_label_enabled": true,
+      "needs_review": true
+    },
+    {
+      "tag": "i_urdhva_dhanurasana_i",
+      "canonical_name": "I Urdhva Dhanurasana I",
+      "zh_name": "",
+      "category": "asana",
+      "source_pages": [
+        {
+          "source_id": "pdf2",
+          "pdf": "Iyangar 瑜珈之光PDF2精.pdf",
+          "page": 138
+        }
+      ],
+      "figures": [
+        "219",
+        "479",
+        "481",
+        "482"
+      ],
+      "aliases": [],
+      "auto_label_enabled": true,
+      "needs_review": true
+    },
+    {
+      "tag": "i_urdhva_dhanurasana_ii",
+      "canonical_name": "I Urdhva Dhanurasana II",
+      "zh_name": "",
+      "category": "asana",
+      "source_pages": [
+        {
+          "source_id": "pdf2",
+          "pdf": "Iyangar 瑜珈之光PDF2精.pdf",
+          "page": 139
+        }
+      ],
+      "figures": [
+        "486",
+        "483",
+        "484",
+        "485",
+        "487"
+      ],
+      "aliases": [],
+      "auto_label_enabled": true,
+      "needs_review": true
+    },
+    {
+      "tag": "chakrasana_in_urdhva_dhanurasana",
+      "canonical_name": "Chakrasana in Urdhva Dhanurasana",
+      "zh_name": "",
+      "category": "asana",
+      "source_pages": [
+        {
+          "source_id": "pdf2",
+          "pdf": "Iyangar 瑜珈之光PDF2精.pdf",
+          "page": 141
+        }
+      ],
+      "figures": [
+        "359",
+        "486",
+        "488",
+        "499"
+      ],
+      "aliases": [],
+      "auto_label_enabled": true,
+      "needs_review": true
+    },
+    {
+      "tag": "dandasana_i",
+      "canonical_name": "Dandasana I",
+      "zh_name": "",
+      "category": "asana",
+      "source_pages": [
+        {
+          "source_id": "pdf3",
+          "pdf": "Iyangar 瑜珈之光PDF3精.pdf",
+          "page": 4
+        }
+      ],
+      "figures": [
+        "516",
+        "521",
+        "190",
+        "486",
+        "1",
+        "488",
+        "499"
+      ],
+      "aliases": [],
+      "auto_label_enabled": true,
+      "needs_review": true
+    },
+    {
+      "tag": "i_eka_pada_viparita_dandasana_ii",
+      "canonical_name": "I Eka Pada Viparita Dandasana II",
+      "zh_name": "",
+      "category": "asana",
+      "source_pages": [
+        {
+          "source_id": "pdf3",
+          "pdf": "Iyangar 瑜珈之光PDF3精.pdf",
+          "page": 5
+        }
+      ],
+      "figures": [
+        "516",
+        "522",
+        "523",
+        "190",
+        "486",
+        "1",
+        "488",
+        "499"
+      ],
+      "aliases": [],
+      "auto_label_enabled": true,
+      "needs_review": true
+    },
+    {
+      "tag": "i_eka_pada_rajakapotasana_i",
+      "canonical_name": "I Eka Pada Rajakapotasana I",
+      "zh_name": "",
+      "category": "asana",
+      "source_pages": [
+        {
+          "source_id": "pdf3",
+          "pdf": "Iyangar 瑜珈之光PDF3精.pdf",
+          "page": 11
+        }
+      ],
+      "figures": [
+        "77",
+        "539",
+        "540",
+        "541",
+        "542"
+      ],
+      "aliases": [],
+      "auto_label_enabled": true,
+      "needs_review": true
+    },
+    {
+      "tag": "i_eka_pada_rajakapotasana_ii",
+      "canonical_name": "I Eka Pada Rajakapotasana II",
+      "zh_name": "",
+      "category": "asana",
+      "source_pages": [
+        {
+          "source_id": "pdf3",
+          "pdf": "Iyangar 瑜珈之光PDF3精.pdf",
+          "page": 13
+        }
+      ],
+      "figures": [
+        "144",
+        "545"
+      ],
+      "aliases": [],
+      "auto_label_enabled": true,
+      "needs_review": true
+    },
+    {
+      "tag": "i_eka_pada_rajakapotasana",
+      "canonical_name": "I Eka Pada Rajakapotasana",
+      "zh_name": "",
+      "category": "asana",
+      "source_pages": [
+        {
+          "source_id": "pdf3",
+          "pdf": "Iyangar 瑜珈之光PDF3精.pdf",
+          "page": 14
+        }
+      ],
+      "figures": [
+        "77",
+        "89",
+        "546"
+      ],
+      "aliases": [],
+      "auto_label_enabled": true,
+      "needs_review": true
+    },
+    {
+      "tag": "padangustha_dhanurasana_i",
+      "canonical_name": "Padangustha Dhanurasana I",
+      "zh_name": "",
+      "category": "asana",
+      "source_pages": [
+        {
+          "source_id": "pdf3",
+          "pdf": "Iyangar 瑜珈之光PDF3精.pdf",
+          "page": 19
+        }
+      ],
+      "figures": [
+        "63",
+        "73",
+        "552",
+        "553",
+        "554",
+        "555",
+        "556"
+      ],
+      "aliases": [],
+      "auto_label_enabled": true,
+      "needs_review": true
+    },
+    {
+      "tag": "mula_bandha",
+      "canonical_name": "Mula Bandha",
+      "zh_name": "Mula Bandha",
+      "category": "asana",
+      "source_pages": [
+        {
+          "source_id": "pdf3",
+          "pdf": "Iyangar 瑜珈之光PDF3精.pdf",
+          "page": 45
+        }
+      ],
+      "figures": [],
+      "aliases": [],
+      "auto_label_enabled": true,
+      "needs_review": true
+    },
+    {
+      "tag": "uddiyana_bandha",
+      "canonical_name": "Uddiyana Bandha",
+      "zh_name": "Mula Bandha",
+      "category": "asana",
+      "source_pages": [
+        {
+          "source_id": "pdf3",
+          "pdf": "Iyangar 瑜珈之光PDF3精.pdf",
+          "page": 45
+        },
+        {
+          "source_id": "pdf3",
+          "pdf": "Iyangar 瑜珈之光PDF3精.pdf",
+          "page": 113
+        }
+      ],
+      "figures": [],
+      "aliases": [],
+      "auto_label_enabled": true,
+      "needs_review": true
+    },
+    {
+      "tag": "asvini_mudra",
+      "canonical_name": "Asvini Mudra",
+      "zh_name": "提肛身印， Asvini Mudra",
+      "category": "asana",
+      "source_pages": [
+        {
+          "source_id": "pdf3",
+          "pdf": "Iyangar 瑜珈之光PDF3精.pdf",
+          "page": 46
+        }
+      ],
+      "figures": [],
+      "aliases": [],
+      "auto_label_enabled": true,
+      "needs_review": true
+    },
+    {
+      "tag": "surya_bhedana_pranayama_i",
+      "canonical_name": "Surya Bhedana Pranayama I",
+      "zh_name": "蓮花座",
+      "category": "pranayama",
+      "source_pages": [
+        {
+          "source_id": "pdf3",
+          "pdf": "Iyangar 瑜珈之光PDF3精.pdf",
+          "page": 51
+        }
+      ],
+      "figures": [
+        "599",
+        "104",
+        "84",
+        "89",
+        "598"
+      ],
+      "aliases": [],
+      "auto_label_enabled": true,
+      "needs_review": true
+    },
+    {
+      "tag": "i_nadi_sodhana_pranayama_i",
+      "canonical_name": "I Nadi Sodhana Pranayama I",
+      "zh_name": "s ira",
+      "category": "pranayama",
+      "source_pages": [
+        {
+          "source_id": "pdf3",
+          "pdf": "Iyangar 瑜珈之光PDF3精.pdf",
+          "page": 53
+        }
+      ],
+      "figures": [
+        "599"
+      ],
+      "aliases": [],
+      "auto_label_enabled": true,
+      "needs_review": true
+    },
+    {
+      "tag": "bhastrika_pranayama_i",
+      "canonical_name": "Bhastrika Pranayama I",
+      "zh_name": "",
+      "category": "pranayama",
+      "source_pages": [
+        {
+          "source_id": "pdf3",
+          "pdf": "Iyangar 瑜珈之光PDF3精.pdf",
+          "page": 55
+        }
+      ],
+      "figures": [
+        "592"
+      ],
+      "aliases": [],
+      "auto_label_enabled": true,
+      "needs_review": true
+    },
+    {
+      "tag": "i_kapalabhati_pranayama_i",
+      "canonical_name": "I Kapalabhati Pranayama I",
+      "zh_name": "",
+      "category": "pranayama",
+      "source_pages": [
+        {
+          "source_id": "pdf3",
+          "pdf": "Iyangar 瑜珈之光PDF3精.pdf",
+          "page": 56
+        }
+      ],
+      "figures": [
+        "592"
+      ],
+      "aliases": [],
+      "auto_label_enabled": true,
+      "needs_review": true
+    },
+    {
+      "tag": "visama_vrtti_pranayama_i",
+      "canonical_name": "Visama Vrtti Pranayama I",
+      "zh_name": "",
+      "category": "pranayama",
+      "source_pages": [
+        {
+          "source_id": "pdf3",
+          "pdf": "Iyangar 瑜珈之光PDF3精.pdf",
+          "page": 59
+        }
+      ],
+      "figures": [],
+      "aliases": [],
+      "auto_label_enabled": true,
+      "needs_review": true
+    },
+    {
+      "tag": "i_sahita_and_kevala_kumbhaka_pranayama_i",
+      "canonical_name": "I Sahita and Kevala Kumbhaka Pranayama I",
+      "zh_name": "",
+      "category": "pranayama",
+      "source_pages": [
+        {
+          "source_id": "pdf3",
+          "pdf": "Iyangar 瑜珈之光PDF3精.pdf",
+          "page": 63
+        }
+      ],
+      "figures": [],
+      "aliases": [],
+      "auto_label_enabled": true,
+      "needs_review": true
+    },
+    {
+      "tag": "kaka_mudra",
+      "canonical_name": "Kaka Mudra",
+      "zh_name": "Kaka Mudra",
+      "category": "asana",
+      "source_pages": [
+        {
+          "source_id": "pdf3",
+          "pdf": "Iyangar 瑜珈之光PDF3精.pdf",
+          "page": 97
+        }
+      ],
+      "figures": [
+        "486",
+        "516",
+        "525",
+        "535",
+        "184",
+        "234",
+        "244",
+        "160",
+        "106",
+        "592",
+        "218",
+        "271",
+        "4",
+        "36",
+        "104",
+        "124",
+        "89",
+        "96",
+        "97",
+        "39",
+        "56",
+        "80",
+        "48",
+        "167",
+        "173",
+        "175",
+        "142",
+        "303",
+        "311",
+        "321",
+        "322",
+        "328",
+        "456",
+        "100",
+        "458",
+        "462",
+        "465",
+        "466",
+        "470",
+        "475",
+        "275",
+        "110",
+        "601",
+        "27",
+        "284",
+        "290",
+        "1",
+        "101",
+        "363",
+        "364",
+        "399"
+      ],
+      "aliases": [],
+      "auto_label_enabled": true,
+      "needs_review": true
+    },
+    {
+      "tag": "ardha_chandrasana",
+      "canonical_name": "Ardha Chandrasana",
+      "zh_name": "",
+      "category": "asana",
+      "source_pages": [
+        {
+          "source_id": "pdf3",
+          "pdf": "Iyangar 瑜珈之光PDF3精.pdf",
+          "page": 106
+        }
+      ],
+      "figures": [],
+      "aliases": [],
+      "auto_label_enabled": true,
+      "needs_review": true
+    },
+    {
+      "tag": "parighasana",
+      "canonical_name": "Parighasana",
+      "zh_name": "",
+      "category": "asana",
+      "source_pages": [
+        {
+          "source_id": "pdf3",
+          "pdf": "Iyangar 瑜珈之光PDF3精.pdf",
+          "page": 106
+        }
+      ],
+      "figures": [],
+      "aliases": [],
+      "auto_label_enabled": true,
+      "needs_review": true
+    },
+    {
+      "tag": "parivrtta_parsvakonasana",
+      "canonical_name": "Parivrtta Parsvakonasana",
+      "zh_name": "",
+      "category": "asana",
+      "source_pages": [
+        {
+          "source_id": "pdf3",
+          "pdf": "Iyangar 瑜珈之光PDF3精.pdf",
+          "page": 106
+        }
+      ],
+      "figures": [],
+      "aliases": [],
+      "auto_label_enabled": true,
+      "needs_review": true
+    },
+    {
+      "tag": "parivrtta_trikonasana",
+      "canonical_name": "Parivrtta Trikonasana",
+      "zh_name": "",
+      "category": "asana",
+      "source_pages": [
+        {
+          "source_id": "pdf3",
+          "pdf": "Iyangar 瑜珈之光PDF3精.pdf",
+          "page": 106
+        }
+      ],
+      "figures": [],
+      "aliases": [],
+      "auto_label_enabled": true,
+      "needs_review": true
+    },
+    {
+      "tag": "parsvottanasana",
+      "canonical_name": "Parsvottanasana",
+      "zh_name": "",
+      "category": "asana",
+      "source_pages": [
+        {
+          "source_id": "pdf3",
+          "pdf": "Iyangar 瑜珈之光PDF3精.pdf",
+          "page": 106
+        }
+      ],
+      "figures": [],
+      "aliases": [],
+      "auto_label_enabled": true,
+      "needs_review": true
+    },
+    {
+      "tag": "prasarita_padottanasana_i",
+      "canonical_name": "Prasarita Padottanasana I",
+      "zh_name": "",
+      "category": "asana",
+      "source_pages": [
+        {
+          "source_id": "pdf3",
+          "pdf": "Iyangar 瑜珈之光PDF3精.pdf",
+          "page": 106
+        }
+      ],
+      "figures": [],
+      "aliases": [],
+      "auto_label_enabled": true,
+      "needs_review": true
+    },
+    {
+      "tag": "prasarita_padottanasana_ii",
+      "canonical_name": "Prasarita Padottanasana II",
+      "zh_name": "",
+      "category": "asana",
+      "source_pages": [
+        {
+          "source_id": "pdf3",
+          "pdf": "Iyangar 瑜珈之光PDF3精.pdf",
+          "page": 106
+        }
+      ],
+      "figures": [],
+      "aliases": [],
+      "auto_label_enabled": true,
+      "needs_review": true
+    },
+    {
+      "tag": "ustrasana",
+      "canonical_name": "Ustrasana",
+      "zh_name": "",
+      "category": "asana",
+      "source_pages": [
+        {
+          "source_id": "pdf3",
+          "pdf": "Iyangar 瑜珈之光PDF3精.pdf",
+          "page": 106
+        }
+      ],
+      "figures": [],
+      "aliases": [],
+      "auto_label_enabled": true,
+      "needs_review": true
+    },
+    {
+      "tag": "utkatasana",
+      "canonical_name": "Utkatasana",
+      "zh_name": "",
+      "category": "asana",
+      "source_pages": [
+        {
+          "source_id": "pdf3",
+          "pdf": "Iyangar 瑜珈之光PDF3精.pdf",
+          "page": 106
+        }
+      ],
+      "figures": [],
+      "aliases": [],
+      "auto_label_enabled": true,
+      "needs_review": true
+    },
+    {
+      "tag": "utthita_hasta_padangusthasana",
+      "canonical_name": "Utthita Hasta Padangusthasana",
+      "zh_name": "",
+      "category": "asana",
+      "source_pages": [
+        {
+          "source_id": "pdf3",
+          "pdf": "Iyangar 瑜珈之光PDF3精.pdf",
+          "page": 106
+        }
+      ],
+      "figures": [],
+      "aliases": [],
+      "auto_label_enabled": true,
+      "needs_review": true
+    },
+    {
+      "tag": "utthita_parsvakonasana",
+      "canonical_name": "Utthita Parsvakonasana",
+      "zh_name": "",
+      "category": "asana",
+      "source_pages": [
+        {
+          "source_id": "pdf3",
+          "pdf": "Iyangar 瑜珈之光PDF3精.pdf",
+          "page": 106
+        }
+      ],
+      "figures": [],
+      "aliases": [],
+      "auto_label_enabled": true,
+      "needs_review": true
+    },
+    {
+      "tag": "utthita_trikonasana",
+      "canonical_name": "Utthita Trikonasana",
+      "zh_name": "",
+      "category": "asana",
+      "source_pages": [
+        {
+          "source_id": "pdf3",
+          "pdf": "Iyangar 瑜珈之光PDF3精.pdf",
+          "page": 106
+        }
+      ],
+      "figures": [],
+      "aliases": [],
+      "auto_label_enabled": true,
+      "needs_review": true
+    },
+    {
+      "tag": "virabhadrasana",
+      "canonical_name": "Virabhadrasana",
+      "zh_name": "",
+      "category": "asana",
+      "source_pages": [
+        {
+          "source_id": "pdf3",
+          "pdf": "Iyangar 瑜珈之光PDF3精.pdf",
+          "page": 106
+        }
+      ],
+      "figures": [],
+      "aliases": [],
+      "auto_label_enabled": true,
+      "needs_review": true
+    },
+    {
+      "tag": "virabhadrasana_i",
+      "canonical_name": "Virabhadrasana I",
+      "zh_name": "",
+      "category": "asana",
+      "source_pages": [
+        {
+          "source_id": "pdf3",
+          "pdf": "Iyangar 瑜珈之光PDF3精.pdf",
+          "page": 106
+        }
+      ],
+      "figures": [],
+      "aliases": [],
+      "auto_label_enabled": true,
+      "needs_review": true
+    },
+    {
+      "tag": "virabhadrasana_ii",
+      "canonical_name": "Virabhadrasana II",
+      "zh_name": "",
+      "category": "asana",
+      "source_pages": [
+        {
+          "source_id": "pdf3",
+          "pdf": "Iyangar 瑜珈之光PDF3精.pdf",
+          "page": 106
+        }
+      ],
+      "figures": [],
+      "aliases": [],
+      "auto_label_enabled": true,
+      "needs_review": true
+    },
+    {
+      "tag": "vrksasana",
+      "canonical_name": "Vrksasana",
+      "zh_name": "",
+      "category": "asana",
+      "source_pages": [
+        {
+          "source_id": "pdf3",
+          "pdf": "Iyangar 瑜珈之光PDF3精.pdf",
+          "page": 106
+        }
+      ],
+      "figures": [],
+      "aliases": [],
+      "auto_label_enabled": true,
+      "needs_review": true
+    },
+    {
+      "tag": "adho_mukha_svanasana",
+      "canonical_name": "Adho Mukha Svanasana",
+      "zh_name": "",
+      "category": "asana",
+      "source_pages": [
+        {
+          "source_id": "pdf3",
+          "pdf": "Iyangar 瑜珈之光PDF3精.pdf",
+          "page": 107
+        }
+      ],
+      "figures": [],
+      "aliases": [],
+      "auto_label_enabled": true,
+      "needs_review": true
+    },
+    {
+      "tag": "ardha_navasana",
+      "canonical_name": "Ardha Navasana",
+      "zh_name": "",
+      "category": "asana",
+      "source_pages": [
+        {
+          "source_id": "pdf3",
+          "pdf": "Iyangar 瑜珈之光PDF3精.pdf",
+          "page": 107
+        }
+      ],
+      "figures": [],
+      "aliases": [],
+      "auto_label_enabled": true,
+      "needs_review": true
+    },
+    {
+      "tag": "baddha_konasana",
+      "canonical_name": "Baddha Konasana",
+      "zh_name": "",
+      "category": "asana",
+      "source_pages": [
+        {
+          "source_id": "pdf3",
+          "pdf": "Iyangar 瑜珈之光PDF3精.pdf",
+          "page": 107
+        }
+      ],
+      "figures": [],
+      "aliases": [],
+      "auto_label_enabled": true,
+      "needs_review": true
+    },
+    {
+      "tag": "chaturanga_dandasana",
+      "canonical_name": "Chaturanga Dandasana",
+      "zh_name": "",
+      "category": "asana",
+      "source_pages": [
+        {
+          "source_id": "pdf3",
+          "pdf": "Iyangar 瑜珈之光PDF3精.pdf",
+          "page": 107
+        }
+      ],
+      "figures": [],
+      "aliases": [],
+      "auto_label_enabled": true,
+      "needs_review": true
+    },
+    {
+      "tag": "dandasana",
+      "canonical_name": "Dandasana",
+      "zh_name": "",
+      "category": "asana",
+      "source_pages": [
+        {
+          "source_id": "pdf3",
+          "pdf": "Iyangar 瑜珈之光PDF3精.pdf",
+          "page": 107
+        }
+      ],
+      "figures": [],
+      "aliases": [],
+      "auto_label_enabled": true,
+      "needs_review": true
+    },
+    {
+      "tag": "dhanurasana",
+      "canonical_name": "Dhanurasana",
+      "zh_name": "",
+      "category": "asana",
+      "source_pages": [
+        {
+          "source_id": "pdf3",
+          "pdf": "Iyangar 瑜珈之光PDF3精.pdf",
+          "page": 107
+        }
+      ],
+      "figures": [],
+      "aliases": [],
+      "auto_label_enabled": true,
+      "needs_review": true
+    },
+    {
+      "tag": "garudasana",
+      "canonical_name": "Garudasana",
+      "zh_name": "",
+      "category": "asana",
+      "source_pages": [
+        {
+          "source_id": "pdf3",
+          "pdf": "Iyangar 瑜珈之光PDF3精.pdf",
+          "page": 107
+        }
+      ],
+      "figures": [],
+      "aliases": [],
+      "auto_label_enabled": true,
+      "needs_review": true
+    },
+    {
+      "tag": "gomukhasana",
+      "canonical_name": "Gomukhasana",
+      "zh_name": "",
+      "category": "asana",
+      "source_pages": [
+        {
+          "source_id": "pdf3",
+          "pdf": "Iyangar 瑜珈之光PDF3精.pdf",
+          "page": 107
+        }
+      ],
+      "figures": [],
+      "aliases": [],
+      "auto_label_enabled": true,
+      "needs_review": true
+    },
+    {
+      "tag": "lolasana",
+      "canonical_name": "Lolasana",
+      "zh_name": "",
+      "category": "asana",
+      "source_pages": [
+        {
+          "source_id": "pdf3",
+          "pdf": "Iyangar 瑜珈之光PDF3精.pdf",
+          "page": 107
+        }
+      ],
+      "figures": [],
+      "aliases": [],
+      "auto_label_enabled": true,
+      "needs_review": true
+    },
+    {
+      "tag": "makarasana",
+      "canonical_name": "Makarasana",
+      "zh_name": "",
+      "category": "asana",
+      "source_pages": [
+        {
+          "source_id": "pdf3",
+          "pdf": "Iyangar 瑜珈之光PDF3精.pdf",
+          "page": 107
+        }
+      ],
+      "figures": [],
+      "aliases": [],
+      "auto_label_enabled": true,
+      "needs_review": true
+    },
+    {
+      "tag": "nakrasana",
+      "canonical_name": "Nakrasana",
+      "zh_name": "",
+      "category": "asana",
+      "source_pages": [
+        {
+          "source_id": "pdf3",
+          "pdf": "Iyangar 瑜珈之光PDF3精.pdf",
+          "page": 107
+        }
+      ],
+      "figures": [],
+      "aliases": [],
+      "auto_label_enabled": true,
+      "needs_review": true
+    },
+    {
+      "tag": "padahastasana",
+      "canonical_name": "Padahastasana",
+      "zh_name": "",
+      "category": "asana",
+      "source_pages": [
+        {
+          "source_id": "pdf3",
+          "pdf": "Iyangar 瑜珈之光PDF3精.pdf",
+          "page": 107
+        }
+      ],
+      "figures": [],
+      "aliases": [],
+      "auto_label_enabled": true,
+      "needs_review": true
+    },
+    {
+      "tag": "padangusthasana",
+      "canonical_name": "Padangusthasana",
+      "zh_name": "",
+      "category": "asana",
+      "source_pages": [
+        {
+          "source_id": "pdf3",
+          "pdf": "Iyangar 瑜珈之光PDF3精.pdf",
+          "page": 107
+        }
+      ],
+      "figures": [],
+      "aliases": [],
+      "auto_label_enabled": true,
+      "needs_review": true
+    },
+    {
+      "tag": "paripurna_navasana",
+      "canonical_name": "Paripurna Navasana",
+      "zh_name": "",
+      "category": "asana",
+      "source_pages": [
+        {
+          "source_id": "pdf3",
+          "pdf": "Iyangar 瑜珈之光PDF3精.pdf",
+          "page": 107
+        }
+      ],
+      "figures": [],
+      "aliases": [],
+      "auto_label_enabled": true,
+      "needs_review": true
+    },
+    {
+      "tag": "parsva_dhanurasana",
+      "canonical_name": "Parsva Dhanurasana",
+      "zh_name": "",
+      "category": "asana",
+      "source_pages": [
+        {
+          "source_id": "pdf3",
+          "pdf": "Iyangar 瑜珈之光PDF3精.pdf",
+          "page": 107
+        }
+      ],
+      "figures": [],
+      "aliases": [],
+      "auto_label_enabled": true,
+      "needs_review": true
+    },
+    {
+      "tag": "paryankasana",
+      "canonical_name": "Paryankasana",
+      "zh_name": "",
+      "category": "asana",
+      "source_pages": [
+        {
+          "source_id": "pdf3",
+          "pdf": "Iyangar 瑜珈之光PDF3精.pdf",
+          "page": 107
+        }
+      ],
+      "figures": [],
+      "aliases": [],
+      "auto_label_enabled": true,
+      "needs_review": true
+    },
+    {
+      "tag": "salabhasana",
+      "canonical_name": "Salabhasana",
+      "zh_name": "",
+      "category": "asana",
+      "source_pages": [
+        {
+          "source_id": "pdf3",
+          "pdf": "Iyangar 瑜珈之光PDF3精.pdf",
+          "page": 107
+        }
+      ],
+      "figures": [],
+      "aliases": [],
+      "auto_label_enabled": true,
+      "needs_review": true
+    },
+    {
+      "tag": "siddhasana",
+      "canonical_name": "Siddhasana",
+      "zh_name": "",
+      "category": "asana",
+      "source_pages": [
+        {
+          "source_id": "pdf3",
+          "pdf": "Iyangar 瑜珈之光PDF3精.pdf",
+          "page": 107
+        }
+      ],
+      "figures": [],
+      "aliases": [],
+      "auto_label_enabled": true,
+      "needs_review": true
+    },
+    {
+      "tag": "supta_virasana",
+      "canonical_name": "Supta Virasana",
+      "zh_name": "",
+      "category": "asana",
+      "source_pages": [
+        {
+          "source_id": "pdf3",
+          "pdf": "Iyangar 瑜珈之光PDF3精.pdf",
+          "page": 107
+        }
+      ],
+      "figures": [],
+      "aliases": [],
+      "auto_label_enabled": true,
+      "needs_review": true
+    },
+    {
+      "tag": "urdhva_mukha_svanasana",
+      "canonical_name": "Urdhva Mukha Svanasana",
+      "zh_name": "",
+      "category": "asana",
+      "source_pages": [
+        {
+          "source_id": "pdf3",
+          "pdf": "Iyangar 瑜珈之光PDF3精.pdf",
+          "page": 107
+        }
+      ],
+      "figures": [],
+      "aliases": [],
+      "auto_label_enabled": true,
+      "needs_review": true
+    },
+    {
+      "tag": "urdhva_prasarita_ekapadasana",
+      "canonical_name": "Urdhva Prasarita Ekapadasana",
+      "zh_name": "",
+      "category": "asana",
+      "source_pages": [
+        {
+          "source_id": "pdf3",
+          "pdf": "Iyangar 瑜珈之光PDF3精.pdf",
+          "page": 107
+        }
+      ],
+      "figures": [],
+      "aliases": [],
+      "auto_label_enabled": true,
+      "needs_review": true
+    },
+    {
+      "tag": "uttanasana",
+      "canonical_name": "Uttanasana",
+      "zh_name": "",
+      "category": "asana",
+      "source_pages": [
+        {
+          "source_id": "pdf3",
+          "pdf": "Iyangar 瑜珈之光PDF3精.pdf",
+          "page": 107
+        }
+      ],
+      "figures": [],
+      "aliases": [],
+      "auto_label_enabled": true,
+      "needs_review": true
+    },
+    {
+      "tag": "vatayanasana",
+      "canonical_name": "Vatayanasana",
+      "zh_name": "",
+      "category": "asana",
+      "source_pages": [
+        {
+          "source_id": "pdf3",
+          "pdf": "Iyangar 瑜珈之光PDF3精.pdf",
+          "page": 107
+        }
+      ],
+      "figures": [],
+      "aliases": [],
+      "auto_label_enabled": true,
+      "needs_review": true
+    },
+    {
+      "tag": "virasana",
+      "canonical_name": "Virasana",
+      "zh_name": "",
+      "category": "asana",
+      "source_pages": [
+        {
+          "source_id": "pdf3",
+          "pdf": "Iyangar 瑜珈之光PDF3精.pdf",
+          "page": 107
+        }
+      ],
+      "figures": [],
+      "aliases": [],
+      "auto_label_enabled": true,
+      "needs_review": true
+    },
+    {
+      "tag": "ardha_baddha_padma_paschimottanasana",
+      "canonical_name": "Ardha Baddha Padma Paschimottanasana",
+      "zh_name": "",
+      "category": "asana",
+      "source_pages": [
+        {
+          "source_id": "pdf3",
+          "pdf": "Iyangar 瑜珈之光PDF3精.pdf",
+          "page": 108
+        }
+      ],
+      "figures": [],
+      "aliases": [],
+      "auto_label_enabled": true,
+      "needs_review": true
+    },
+    {
+      "tag": "baddha_padmasana",
+      "canonical_name": "Baddha Padmasana",
+      "zh_name": "",
+      "category": "asana",
+      "source_pages": [
+        {
+          "source_id": "pdf3",
+          "pdf": "Iyangar 瑜珈之光PDF3精.pdf",
+          "page": 108
+        }
+      ],
+      "figures": [],
+      "aliases": [],
+      "auto_label_enabled": true,
+      "needs_review": true
+    },
+    {
+      "tag": "garbha_pindasana",
+      "canonical_name": "Garbha Pindasana",
+      "zh_name": "",
+      "category": "asana",
+      "source_pages": [
+        {
+          "source_id": "pdf3",
+          "pdf": "Iyangar 瑜珈之光PDF3精.pdf",
+          "page": 108
+        }
+      ],
+      "figures": [],
+      "aliases": [],
+      "auto_label_enabled": true,
+      "needs_review": true
+    },
+    {
+      "tag": "janu_sirsasana",
+      "canonical_name": "Janu Sirsasana",
+      "zh_name": "",
+      "category": "asana",
+      "source_pages": [
+        {
+          "source_id": "pdf3",
+          "pdf": "Iyangar 瑜珈之光PDF3精.pdf",
+          "page": 108
+        }
+      ],
+      "figures": [],
+      "aliases": [],
+      "auto_label_enabled": true,
+      "needs_review": true
+    },
+    {
+      "tag": "krounchasana",
+      "canonical_name": "Krounchasana",
+      "zh_name": "",
+      "category": "asana",
+      "source_pages": [
+        {
+          "source_id": "pdf3",
+          "pdf": "Iyangar 瑜珈之光PDF3精.pdf",
+          "page": 108
+        }
+      ],
+      "figures": [],
+      "aliases": [],
+      "auto_label_enabled": true,
+      "needs_review": true
+    },
+    {
+      "tag": "kukkutasana",
+      "canonical_name": "Kukkutasana",
+      "zh_name": "",
+      "category": "asana",
+      "source_pages": [
+        {
+          "source_id": "pdf3",
+          "pdf": "Iyangar 瑜珈之光PDF3精.pdf",
+          "page": 108
+        }
+      ],
+      "figures": [],
+      "aliases": [],
+      "auto_label_enabled": true,
+      "needs_review": true
+    },
+    {
+      "tag": "maha_mudra",
+      "canonical_name": "Maha Mudra",
+      "zh_name": "",
+      "category": "asana",
+      "source_pages": [
+        {
+          "source_id": "pdf3",
+          "pdf": "Iyangar 瑜珈之光PDF3精.pdf",
+          "page": 108
+        }
+      ],
+      "figures": [],
+      "aliases": [],
+      "auto_label_enabled": true,
+      "needs_review": true
+    },
+    {
+      "tag": "parivrtta_janu_sirsasana",
+      "canonical_name": "Parivrtta Janu Sirsasana",
+      "zh_name": "",
+      "category": "asana",
+      "source_pages": [
+        {
+          "source_id": "pdf3",
+          "pdf": "Iyangar 瑜珈之光PDF3精.pdf",
+          "page": 108
+        }
+      ],
+      "figures": [],
+      "aliases": [],
+      "auto_label_enabled": true,
+      "needs_review": true
+    },
+    {
+      "tag": "parivrtta_paschimottanasana",
+      "canonical_name": "Parivrtta Paschimottanasana",
+      "zh_name": "",
+      "category": "asana",
+      "source_pages": [
+        {
+          "source_id": "pdf3",
+          "pdf": "Iyangar 瑜珈之光PDF3精.pdf",
+          "page": 108
+        }
+      ],
+      "figures": [],
+      "aliases": [],
+      "auto_label_enabled": true,
+      "needs_review": true
+    },
+    {
+      "tag": "parvatasana",
+      "canonical_name": "Parvatasana",
+      "zh_name": "",
+      "category": "asana",
+      "source_pages": [
+        {
+          "source_id": "pdf3",
+          "pdf": "Iyangar 瑜珈之光PDF3精.pdf",
+          "page": 108
+        }
+      ],
+      "figures": [],
+      "aliases": [],
+      "auto_label_enabled": true,
+      "needs_review": true
+    },
+    {
+      "tag": "paschimott_anasana",
+      "canonical_name": "Paschimott anasana",
+      "zh_name": "",
+      "category": "asana",
+      "source_pages": [
+        {
+          "source_id": "pdf3",
+          "pdf": "Iyangar 瑜珈之光PDF3精.pdf",
+          "page": 108
+        }
+      ],
+      "figures": [],
+      "aliases": [],
+      "auto_label_enabled": true,
+      "needs_review": true
+    },
+    {
+      "tag": "sanmukha_mudra",
+      "canonical_name": "Sanmukha Mudra",
+      "zh_name": "",
+      "category": "asana",
+      "source_pages": [
+        {
+          "source_id": "pdf3",
+          "pdf": "Iyangar 瑜珈之光PDF3精.pdf",
+          "page": 108
+        }
+      ],
+      "figures": [],
+      "aliases": [],
+      "auto_label_enabled": true,
+      "needs_review": true
+    },
+    {
+      "tag": "simhasana_i",
+      "canonical_name": "Simhasana I",
+      "zh_name": "",
+      "category": "asana",
+      "source_pages": [
+        {
+          "source_id": "pdf3",
+          "pdf": "Iyangar 瑜珈之光PDF3精.pdf",
+          "page": 108
+        }
+      ],
+      "figures": [],
+      "aliases": [],
+      "auto_label_enabled": true,
+      "needs_review": true
+    },
+    {
+      "tag": "simhasana_ii",
+      "canonical_name": "Simhasana II",
+      "zh_name": "",
+      "category": "asana",
+      "source_pages": [
+        {
+          "source_id": "pdf3",
+          "pdf": "Iyangar 瑜珈之光PDF3精.pdf",
+          "page": 108
+        }
+      ],
+      "figures": [],
+      "aliases": [],
+      "auto_label_enabled": true,
+      "needs_review": true
+    },
+    {
+      "tag": "tolasana",
+      "canonical_name": "Tolasana",
+      "zh_name": "",
+      "category": "asana",
+      "source_pages": [
+        {
+          "source_id": "pdf3",
+          "pdf": "Iyangar 瑜珈之光PDF3精.pdf",
+          "page": 108
+        }
+      ],
+      "figures": [],
+      "aliases": [],
+      "auto_label_enabled": true,
+      "needs_review": true
+    },
+    {
+      "tag": "triang_mukhaikapada_paschimottanasana",
+      "canonical_name": "Triang Mukhaikapada Paschimottanasana",
+      "zh_name": "",
+      "category": "asana",
+      "source_pages": [
+        {
+          "source_id": "pdf3",
+          "pdf": "Iyangar 瑜珈之光PDF3精.pdf",
+          "page": 108
+        }
+      ],
+      "figures": [],
+      "aliases": [],
+      "auto_label_enabled": true,
+      "needs_review": true
+    },
+    {
+      "tag": "ubhaya_padangusthasana",
+      "canonical_name": "Ubhaya Padangusthasana",
+      "zh_name": "",
+      "category": "asana",
+      "source_pages": [
+        {
+          "source_id": "pdf3",
+          "pdf": "Iyangar 瑜珈之光PDF3精.pdf",
+          "page": 108
+        }
+      ],
+      "figures": [],
+      "aliases": [],
+      "auto_label_enabled": true,
+      "needs_review": true
+    },
+    {
+      "tag": "upavistha_konasana",
+      "canonical_name": "Upavistha Konasana",
+      "zh_name": "",
+      "category": "asana",
+      "source_pages": [
+        {
+          "source_id": "pdf3",
+          "pdf": "Iyangar 瑜珈之光PDF3精.pdf",
+          "page": 108
+        }
+      ],
+      "figures": [],
+      "aliases": [],
+      "auto_label_enabled": true,
+      "needs_review": true
+    },
+    {
+      "tag": "urdhva_mukha_paschimottanasana_i",
+      "canonical_name": "Urdhva Mukha Paschimottanasana I",
+      "zh_name": "",
+      "category": "asana",
+      "source_pages": [
+        {
+          "source_id": "pdf3",
+          "pdf": "Iyangar 瑜珈之光PDF3精.pdf",
+          "page": 108
+        }
+      ],
+      "figures": [],
+      "aliases": [],
+      "auto_label_enabled": true,
+      "needs_review": true
+    },
+    {
+      "tag": "urdhva_mukha_paschimottanasana_ii",
+      "canonical_name": "Urdhva Mukha Paschimottanasana II",
+      "zh_name": "",
+      "category": "asana",
+      "source_pages": [
+        {
+          "source_id": "pdf3",
+          "pdf": "Iyangar 瑜珈之光PDF3精.pdf",
+          "page": 108
+        }
+      ],
+      "figures": [],
+      "aliases": [],
+      "auto_label_enabled": true,
+      "needs_review": true
+    },
+    {
+      "tag": "yoga_mudrasana",
+      "canonical_name": "Yoga Mudrasana",
+      "zh_name": "",
+      "category": "asana",
+      "source_pages": [
+        {
+          "source_id": "pdf3",
+          "pdf": "Iyangar 瑜珈之光PDF3精.pdf",
+          "page": 108
+        }
+      ],
+      "figures": [],
+      "aliases": [],
+      "auto_label_enabled": true,
+      "needs_review": true
+    },
+    {
+      "tag": "akarna_dhanurasana",
+      "canonical_name": "Akarna Dhanurasana",
+      "zh_name": "",
+      "category": "asana",
+      "source_pages": [
+        {
+          "source_id": "pdf3",
+          "pdf": "Iyangar 瑜珈之光PDF3精.pdf",
+          "page": 109
+        }
+      ],
+      "figures": [],
+      "aliases": [],
+      "auto_label_enabled": true,
+      "needs_review": true
+    },
+    {
+      "tag": "baddha_hasta_sirsasana",
+      "canonical_name": "Baddha Hasta Sirsasana",
+      "zh_name": "",
+      "category": "asana",
+      "source_pages": [
+        {
+          "source_id": "pdf3",
+          "pdf": "Iyangar 瑜珈之光PDF3精.pdf",
+          "page": 109
+        }
+      ],
+      "figures": [],
+      "aliases": [],
+      "auto_label_enabled": true,
+      "needs_review": true
+    },
+    {
+      "tag": "eka_pada_sarvangasana",
+      "canonical_name": "Eka Pada Sarvangasana",
+      "zh_name": "",
+      "category": "asana",
+      "source_pages": [
+        {
+          "source_id": "pdf3",
+          "pdf": "Iyangar 瑜珈之光PDF3精.pdf",
+          "page": 109
+        }
+      ],
+      "figures": [],
+      "aliases": [],
+      "auto_label_enabled": true,
+      "needs_review": true
+    },
+    {
+      "tag": "eka_pada_sirsasana",
+      "canonical_name": "Eka Pada Sirsasana",
+      "zh_name": "",
+      "category": "asana",
+      "source_pages": [
+        {
+          "source_id": "pdf3",
+          "pdf": "Iyangar 瑜珈之光PDF3精.pdf",
+          "page": 109
+        },
+        {
+          "source_id": "pdf3",
+          "pdf": "Iyangar 瑜珈之光PDF3精.pdf",
+          "page": 111
+        }
+      ],
+      "figures": [],
+      "aliases": [],
+      "auto_label_enabled": true,
+      "needs_review": true
+    },
+    {
+      "tag": "halasana",
+      "canonical_name": "Halasana",
+      "zh_name": "",
+      "category": "asana",
+      "source_pages": [
+        {
+          "source_id": "pdf3",
+          "pdf": "Iyangar 瑜珈之光PDF3精.pdf",
+          "page": 109
+        }
+      ],
+      "figures": [],
+      "aliases": [],
+      "auto_label_enabled": true,
+      "needs_review": true
+    },
+    {
+      "tag": "karnapidasana",
+      "canonical_name": "Karnapidasana",
+      "zh_name": "",
+      "category": "asana",
+      "source_pages": [
+        {
+          "source_id": "pdf3",
+          "pdf": "Iyangar 瑜珈之光PDF3精.pdf",
+          "page": 109
+        }
+      ],
+      "figures": [],
+      "aliases": [],
+      "auto_label_enabled": true,
+      "needs_review": true
+    },
+    {
+      "tag": "mukta_hasta_sirsasana",
+      "canonical_name": "Mukta Hasta Sirsasana",
+      "zh_name": "",
+      "category": "asana",
+      "source_pages": [
+        {
+          "source_id": "pdf3",
+          "pdf": "Iyangar 瑜珈之光PDF3精.pdf",
+          "page": 109
+        }
+      ],
+      "figures": [],
+      "aliases": [],
+      "auto_label_enabled": true,
+      "needs_review": true
+    },
+    {
+      "tag": "niralamba_sarvangasana_ii",
+      "canonical_name": "Niralamba Sarvangasana II",
+      "zh_name": "",
+      "category": "asana",
+      "source_pages": [
+        {
+          "source_id": "pdf3",
+          "pdf": "Iyangar 瑜珈之光PDF3精.pdf",
+          "page": 109
+        }
+      ],
+      "figures": [],
+      "aliases": [],
+      "auto_label_enabled": true,
+      "needs_review": true
+    },
+    {
+      "tag": "paravaike_pada_sarvangasana",
+      "canonical_name": "Paravaike Pada Sarvangasana",
+      "zh_name": "",
+      "category": "asana",
+      "source_pages": [
+        {
+          "source_id": "pdf3",
+          "pdf": "Iyangar 瑜珈之光PDF3精.pdf",
+          "page": 109
+        }
+      ],
+      "figures": [],
+      "aliases": [],
+      "auto_label_enabled": true,
+      "needs_review": true
+    },
+    {
+      "tag": "parivrttaikapada_sirsasana",
+      "canonical_name": "Parivrttaikapada Sirsasana",
+      "zh_name": "",
+      "category": "asana",
+      "source_pages": [
+        {
+          "source_id": "pdf3",
+          "pdf": "Iyangar 瑜珈之光PDF3精.pdf",
+          "page": 109
+        }
+      ],
+      "figures": [],
+      "aliases": [],
+      "auto_label_enabled": true,
+      "needs_review": true
+    },
+    {
+      "tag": "parsva_halasana",
+      "canonical_name": "Parsva Halasana",
+      "zh_name": "",
+      "category": "asana",
+      "source_pages": [
+        {
+          "source_id": "pdf3",
+          "pdf": "Iyangar 瑜珈之光PDF3精.pdf",
+          "page": 109
+        }
+      ],
+      "figures": [],
+      "aliases": [],
+      "auto_label_enabled": true,
+      "needs_review": true
+    },
+    {
+      "tag": "parsva_sarvangasana",
+      "canonical_name": "Parsva Sarvangasana",
+      "zh_name": "",
+      "category": "asana",
+      "source_pages": [
+        {
+          "source_id": "pdf3",
+          "pdf": "Iyangar 瑜珈之光PDF3精.pdf",
+          "page": 109
+        }
+      ],
+      "figures": [],
+      "aliases": [],
+      "auto_label_enabled": true,
+      "needs_review": true
+    },
+    {
+      "tag": "parsva_sirsasana",
+      "canonical_name": "Parsva Sirsasana",
+      "zh_name": "",
+      "category": "asana",
+      "source_pages": [
+        {
+          "source_id": "pdf3",
+          "pdf": "Iyangar 瑜珈之光PDF3精.pdf",
+          "page": 109
+        }
+      ],
+      "figures": [],
+      "aliases": [],
+      "auto_label_enabled": true,
+      "needs_review": true
+    },
+    {
+      "tag": "parsva_urdhva_padmasana_in_sirsasana",
+      "canonical_name": "Parsva Urdhva Padmasana in Sirsasana",
+      "zh_name": "",
+      "category": "asana",
+      "source_pages": [
+        {
+          "source_id": "pdf3",
+          "pdf": "Iyangar 瑜珈之光PDF3精.pdf",
+          "page": 109
+        }
+      ],
+      "figures": [],
+      "aliases": [],
+      "auto_label_enabled": true,
+      "needs_review": true
+    },
+    {
+      "tag": "parsvaika_pada_sirsasana",
+      "canonical_name": "Parsvaika Pada Sirsasana",
+      "zh_name": "",
+      "category": "asana",
+      "source_pages": [
+        {
+          "source_id": "pdf3",
+          "pdf": "Iyangar 瑜珈之光PDF3精.pdf",
+          "page": 109
+        }
+      ],
+      "figures": [],
+      "aliases": [],
+      "auto_label_enabled": true,
+      "needs_review": true
+    },
+    {
+      "tag": "pindsana_in_sirsasana",
+      "canonical_name": "Pindsana in Sirsasana",
+      "zh_name": "",
+      "category": "asana",
+      "source_pages": [
+        {
+          "source_id": "pdf3",
+          "pdf": "Iyangar 瑜珈之光PDF3精.pdf",
+          "page": 109
+        }
+      ],
+      "figures": [],
+      "aliases": [],
+      "auto_label_enabled": true,
+      "needs_review": true
+    },
+    {
+      "tag": "purvottanasana",
+      "canonical_name": "Purvottanasana",
+      "zh_name": "",
+      "category": "asana",
+      "source_pages": [
+        {
+          "source_id": "pdf3",
+          "pdf": "Iyangar 瑜珈之光PDF3精.pdf",
+          "page": 109
+        }
+      ],
+      "figures": [],
+      "aliases": [],
+      "auto_label_enabled": true,
+      "needs_review": true
+    },
+    {
+      "tag": "salamba_sarvangasana_i",
+      "canonical_name": "Salamba Sarvangasana I",
+      "zh_name": "",
+      "category": "asana",
+      "source_pages": [
+        {
+          "source_id": "pdf3",
+          "pdf": "Iyangar 瑜珈之光PDF3精.pdf",
+          "page": 109
+        }
+      ],
+      "figures": [],
+      "aliases": [],
+      "auto_label_enabled": true,
+      "needs_review": true
+    },
+    {
+      "tag": "salamba_sarvangasana_ii",
+      "canonical_name": "Salamba Sarvangasana II",
+      "zh_name": "",
+      "category": "asana",
+      "source_pages": [
+        {
+          "source_id": "pdf3",
+          "pdf": "Iyangar 瑜珈之光PDF3精.pdf",
+          "page": 109
+        }
+      ],
+      "figures": [],
+      "aliases": [],
+      "auto_label_enabled": true,
+      "needs_review": true
+    },
+    {
+      "tag": "salamba_sirsasana",
+      "canonical_name": "Salamba Sirsasana",
+      "zh_name": "",
+      "category": "asana",
+      "source_pages": [
+        {
+          "source_id": "pdf3",
+          "pdf": "Iyangar 瑜珈之光PDF3精.pdf",
+          "page": 109
+        }
+      ],
+      "figures": [],
+      "aliases": [],
+      "auto_label_enabled": true,
+      "needs_review": true
+    },
+    {
+      "tag": "sarvangasana",
+      "canonical_name": "Sarvangasana",
+      "zh_name": "：＇；：＇",
+      "category": "asana",
+      "source_pages": [
+        {
+          "source_id": "pdf3",
+          "pdf": "Iyangar 瑜珈之光PDF3精.pdf",
+          "page": 109
+        },
+        {
+          "source_id": "pdf3",
+          "pdf": "Iyangar 瑜珈之光PDF3精.pdf",
+          "page": 110
+        }
+      ],
+      "figures": [],
+      "aliases": [],
+      "auto_label_enabled": true,
+      "needs_review": true
+    },
+    {
+      "tag": "supta_konasana",
+      "canonical_name": "Supta Konasana",
+      "zh_name": "",
+      "category": "asana",
+      "source_pages": [
+        {
+          "source_id": "pdf3",
+          "pdf": "Iyangar 瑜珈之光PDF3精.pdf",
+          "page": 109
+        }
+      ],
+      "figures": [],
+      "aliases": [],
+      "auto_label_enabled": true,
+      "needs_review": true
+    },
+    {
+      "tag": "urdhva_dandasana",
+      "canonical_name": "Urdhva Dandasana",
+      "zh_name": "",
+      "category": "asana",
+      "source_pages": [
+        {
+          "source_id": "pdf3",
+          "pdf": "Iyangar 瑜珈之光PDF3精.pdf",
+          "page": 109
+        }
+      ],
+      "figures": [],
+      "aliases": [],
+      "auto_label_enabled": true,
+      "needs_review": true
+    },
+    {
+      "tag": "urdhva_padmasana_in_sirsasana",
+      "canonical_name": "Urdhva Padmasana in Sirsasana",
+      "zh_name": "",
+      "category": "asana",
+      "source_pages": [
+        {
+          "source_id": "pdf3",
+          "pdf": "Iyangar 瑜珈之光PDF3精.pdf",
+          "page": 109
+        }
+      ],
+      "figures": [],
+      "aliases": [],
+      "auto_label_enabled": true,
+      "needs_review": true
+    },
+    {
+      "tag": "anantasana",
+      "canonical_name": "Anantasana",
+      "zh_name": "",
+      "category": "asana",
+      "source_pages": [
+        {
+          "source_id": "pdf3",
+          "pdf": "Iyangar 瑜珈之光PDF3精.pdf",
+          "page": 110
+        }
+      ],
+      "figures": [],
+      "aliases": [],
+      "auto_label_enabled": true,
+      "needs_review": true
+    },
+    {
+      "tag": "ardha_matsyendrasana_iii",
+      "canonical_name": "Ardha Matsyendrasana III",
+      "zh_name": "",
+      "category": "asana",
+      "source_pages": [
+        {
+          "source_id": "pdf3",
+          "pdf": "Iyangar 瑜珈之光PDF3精.pdf",
+          "page": 110
+        }
+      ],
+      "figures": [],
+      "aliases": [],
+      "auto_label_enabled": true,
+      "needs_review": true
+    },
+    {
+      "tag": "astavakrasana",
+      "canonical_name": "Astavakrasana",
+      "zh_name": "",
+      "category": "asana",
+      "source_pages": [
+        {
+          "source_id": "pdf3",
+          "pdf": "Iyangar 瑜珈之光PDF3精.pdf",
+          "page": 110
+        }
+      ],
+      "figures": [],
+      "aliases": [],
+      "auto_label_enabled": true,
+      "needs_review": true
+    },
+    {
+      "tag": "bharadvajasana_ii",
+      "canonical_name": "Bharadvajasana II",
+      "zh_name": "",
+      "category": "asana",
+      "source_pages": [
+        {
+          "source_id": "pdf3",
+          "pdf": "Iyangar 瑜珈之光PDF3精.pdf",
+          "page": 110
+        }
+      ],
+      "figures": [],
+      "aliases": [],
+      "auto_label_enabled": true,
+      "needs_review": true
+    },
+    {
+      "tag": "chakrasana",
+      "canonical_name": "Chakrasana",
+      "zh_name": "",
+      "category": "asana",
+      "source_pages": [
+        {
+          "source_id": "pdf3",
+          "pdf": "Iyangar 瑜珈之光PDF3精.pdf",
+          "page": 110
+        }
+      ],
+      "figures": [],
+      "aliases": [],
+      "auto_label_enabled": true,
+      "needs_review": true
+    },
+    {
+      "tag": "dwi_hasta_bhujasana",
+      "canonical_name": "Dwi Hasta Bhujasana",
+      "zh_name": "",
+      "category": "asana",
+      "source_pages": [
+        {
+          "source_id": "pdf3",
+          "pdf": "Iyangar 瑜珈之光PDF3精.pdf",
+          "page": 110
+        }
+      ],
+      "figures": [],
+      "aliases": [],
+      "auto_label_enabled": true,
+      "needs_review": true
+    },
+    {
+      "tag": "eka_pada_setu_bandha",
+      "canonical_name": "Eka Pada Setu Bandha",
+      "zh_name": "：＇；：＇",
+      "category": "asana",
+      "source_pages": [
+        {
+          "source_id": "pdf3",
+          "pdf": "Iyangar 瑜珈之光PDF3精.pdf",
+          "page": 110
+        }
+      ],
+      "figures": [],
+      "aliases": [],
+      "auto_label_enabled": true,
+      "needs_review": true
+    },
+    {
+      "tag": "j_athara_pari_vartanasana",
+      "canonical_name": "J athara Pari vartanasana",
+      "zh_name": "",
+      "category": "asana",
+      "source_pages": [
+        {
+          "source_id": "pdf3",
+          "pdf": "Iyangar 瑜珈之光PDF3精.pdf",
+          "page": 110
+        }
+      ],
+      "figures": [],
+      "aliases": [],
+      "auto_label_enabled": true,
+      "needs_review": true
+    },
+    {
+      "tag": "marichyasana_iii",
+      "canonical_name": "Marichyasana III",
+      "zh_name": "",
+      "category": "asana",
+      "source_pages": [
+        {
+          "source_id": "pdf3",
+          "pdf": "Iyangar 瑜珈之光PDF3精.pdf",
+          "page": 110
+        }
+      ],
+      "figures": [],
+      "aliases": [],
+      "auto_label_enabled": true,
+      "needs_review": true
+    },
+    {
+      "tag": "marichyasana_iv",
+      "canonical_name": "Marichyasana IV",
+      "zh_name": "",
+      "category": "asana",
+      "source_pages": [
+        {
+          "source_id": "pdf3",
+          "pdf": "Iyangar 瑜珈之光PDF3精.pdf",
+          "page": 110
+        }
+      ],
+      "figures": [],
+      "aliases": [],
+      "auto_label_enabled": true,
+      "needs_review": true
+    },
+    {
+      "tag": "parava_urdhva_padmasana_in_sarvangasana",
+      "canonical_name": "Parava Urdhva Padmasana in Sarvangasana",
+      "zh_name": "",
+      "category": "asana",
+      "source_pages": [
+        {
+          "source_id": "pdf3",
+          "pdf": "Iyangar 瑜珈之光PDF3精.pdf",
+          "page": 110
+        }
+      ],
+      "figures": [],
+      "aliases": [],
+      "auto_label_enabled": true,
+      "needs_review": true
+    },
+    {
+      "tag": "paripurna_matsyendrasana",
+      "canonical_name": "Paripurna Matsyendrasana",
+      "zh_name": "",
+      "category": "asana",
+      "source_pages": [
+        {
+          "source_id": "pdf3",
+          "pdf": "Iyangar 瑜珈之光PDF3精.pdf",
+          "page": 110
+        }
+      ],
+      "figures": [],
+      "aliases": [],
+      "auto_label_enabled": true,
+      "needs_review": true
+    },
+    {
+      "tag": "parsva_pindasana_in_sarvangasana",
+      "canonical_name": "Parsva Pindasana in Sarvangasana",
+      "zh_name": "",
+      "category": "asana",
+      "source_pages": [
+        {
+          "source_id": "pdf3",
+          "pdf": "Iyangar 瑜珈之光PDF3精.pdf",
+          "page": 110
+        }
+      ],
+      "figures": [],
+      "aliases": [],
+      "auto_label_enabled": true,
+      "needs_review": true
+    },
+    {
+      "tag": "pasasana",
+      "canonical_name": "Pasasana",
+      "zh_name": "",
+      "category": "asana",
+      "source_pages": [
+        {
+          "source_id": "pdf3",
+          "pdf": "Iyangar 瑜珈之光PDF3精.pdf",
+          "page": 110
+        }
+      ],
+      "figures": [],
+      "aliases": [],
+      "auto_label_enabled": true,
+      "needs_review": true
+    },
+    {
+      "tag": "setu_bandhasana",
+      "canonical_name": "Setu Bandhasana",
+      "zh_name": "",
+      "category": "asana",
+      "source_pages": [
+        {
+          "source_id": "pdf3",
+          "pdf": "Iyangar 瑜珈之光PDF3精.pdf",
+          "page": 110
+        }
+      ],
+      "figures": [],
+      "aliases": [],
+      "auto_label_enabled": true,
+      "needs_review": true
+    },
+    {
+      "tag": "supta_padangusthasana",
+      "canonical_name": "Supta Padangusthasana",
+      "zh_name": "",
+      "category": "asana",
+      "source_pages": [
+        {
+          "source_id": "pdf3",
+          "pdf": "Iyangar 瑜珈之光PDF3精.pdf",
+          "page": 110
+        }
+      ],
+      "figures": [],
+      "aliases": [],
+      "auto_label_enabled": true,
+      "needs_review": true
+    },
+    {
+      "tag": "urdhva_padmasana_in_sarvangasana",
+      "canonical_name": "Urdhva Padmasana in Sarvangasana",
+      "zh_name": "",
+      "category": "asana",
+      "source_pages": [
+        {
+          "source_id": "pdf3",
+          "pdf": "Iyangar 瑜珈之光PDF3精.pdf",
+          "page": 110
+        }
+      ],
+      "figures": [],
+      "aliases": [],
+      "auto_label_enabled": true,
+      "needs_review": true
+    },
+    {
+      "tag": "urdhva_prasarita_padasana",
+      "canonical_name": "Urdhva Prasarita Padasana",
+      "zh_name": "",
+      "category": "asana",
+      "source_pages": [
+        {
+          "source_id": "pdf3",
+          "pdf": "Iyangar 瑜珈之光PDF3精.pdf",
+          "page": 110
+        }
+      ],
+      "figures": [],
+      "aliases": [],
+      "auto_label_enabled": true,
+      "needs_review": true
+    },
+    {
+      "tag": "uttana_padasana",
+      "canonical_name": "Uttana Padasana",
+      "zh_name": "",
+      "category": "asana",
+      "source_pages": [
+        {
+          "source_id": "pdf3",
+          "pdf": "Iyangar 瑜珈之光PDF3精.pdf",
+          "page": 110
+        }
+      ],
+      "figures": [],
+      "aliases": [],
+      "auto_label_enabled": true,
+      "needs_review": true
+    },
+    {
+      "tag": "uttana_padma_mayurasana",
+      "canonical_name": "Uttana Padma Mayurasana",
+      "zh_name": "",
+      "category": "asana",
+      "source_pages": [
+        {
+          "source_id": "pdf3",
+          "pdf": "Iyangar 瑜珈之光PDF3精.pdf",
+          "page": 110
+        }
+      ],
+      "figures": [],
+      "aliases": [],
+      "auto_label_enabled": true,
+      "needs_review": true
+    },
+    {
+      "tag": "bakasana",
+      "canonical_name": "Bakasana",
+      "zh_name": "",
+      "category": "asana",
+      "source_pages": [
+        {
+          "source_id": "pdf3",
+          "pdf": "Iyangar 瑜珈之光PDF3精.pdf",
+          "page": 111
+        }
+      ],
+      "figures": [],
+      "aliases": [],
+      "auto_label_enabled": true,
+      "needs_review": true
+    },
+    {
+      "tag": "bhairavasana",
+      "canonical_name": "Bhairavasana",
+      "zh_name": "",
+      "category": "asana",
+      "source_pages": [
+        {
+          "source_id": "pdf3",
+          "pdf": "Iyangar 瑜珈之光PDF3精.pdf",
+          "page": 111
+        }
+      ],
+      "figures": [],
+      "aliases": [],
+      "auto_label_enabled": true,
+      "needs_review": true
+    },
+    {
+      "tag": "bhujapidasana",
+      "canonical_name": "Bhujapidasana",
+      "zh_name": "",
+      "category": "asana",
+      "source_pages": [
+        {
+          "source_id": "pdf3",
+          "pdf": "Iyangar 瑜珈之光PDF3精.pdf",
+          "page": 111
+        }
+      ],
+      "figures": [],
+      "aliases": [],
+      "auto_label_enabled": true,
+      "needs_review": true
+    },
+    {
+      "tag": "buddhasana",
+      "canonical_name": "Buddhasana",
+      "zh_name": "",
+      "category": "asana",
+      "source_pages": [
+        {
+          "source_id": "pdf3",
+          "pdf": "Iyangar 瑜珈之光PDF3精.pdf",
+          "page": 111
+        }
+      ],
+      "figures": [],
+      "aliases": [],
+      "auto_label_enabled": true,
+      "needs_review": true
+    },
+    {
+      "tag": "chakorasana",
+      "canonical_name": "Chakorasana",
+      "zh_name": "",
+      "category": "asana",
+      "source_pages": [
+        {
+          "source_id": "pdf3",
+          "pdf": "Iyangar 瑜珈之光PDF3精.pdf",
+          "page": 111
+        }
+      ],
+      "figures": [],
+      "aliases": [],
+      "auto_label_enabled": true,
+      "needs_review": true
+    },
+    {
+      "tag": "durvasasana",
+      "canonical_name": "Durvasasana",
+      "zh_name": "",
+      "category": "asana",
+      "source_pages": [
+        {
+          "source_id": "pdf3",
+          "pdf": "Iyangar 瑜珈之光PDF3精.pdf",
+          "page": 111
+        }
+      ],
+      "figures": [],
+      "aliases": [],
+      "auto_label_enabled": true,
+      "needs_review": true
+    },
+    {
+      "tag": "dwi_pada_sirsasana",
+      "canonical_name": "Dwi Pada Sirsasana",
+      "zh_name": "",
+      "category": "asana",
+      "source_pages": [
+        {
+          "source_id": "pdf3",
+          "pdf": "Iyangar 瑜珈之光PDF3精.pdf",
+          "page": 111
+        }
+      ],
+      "figures": [],
+      "aliases": [],
+      "auto_label_enabled": true,
+      "needs_review": true
+    },
+    {
+      "tag": "hamsasana",
+      "canonical_name": "Hamsasana",
+      "zh_name": "",
+      "category": "asana",
+      "source_pages": [
+        {
+          "source_id": "pdf3",
+          "pdf": "Iyangar 瑜珈之光PDF3精.pdf",
+          "page": 111
+        }
+      ],
+      "figures": [],
+      "aliases": [],
+      "auto_label_enabled": true,
+      "needs_review": true
+    },
+    {
+      "tag": "kala_bhairavasana",
+      "canonical_name": "Kala Bhairavasana",
+      "zh_name": "",
+      "category": "asana",
+      "source_pages": [
+        {
+          "source_id": "pdf3",
+          "pdf": "Iyangar 瑜珈之光PDF3精.pdf",
+          "page": 111
+        }
+      ],
+      "figures": [],
+      "aliases": [],
+      "auto_label_enabled": true,
+      "needs_review": true
+    },
+    {
+      "tag": "kapilasana",
+      "canonical_name": "Kapilasana",
+      "zh_name": "",
+      "category": "asana",
+      "source_pages": [
+        {
+          "source_id": "pdf3",
+          "pdf": "Iyangar 瑜珈之光PDF3精.pdf",
+          "page": 111
+        }
+      ],
+      "figures": [],
+      "aliases": [],
+      "auto_label_enabled": true,
+      "needs_review": true
+    },
+    {
+      "tag": "kasyapasana",
+      "canonical_name": "Kasyapasana",
+      "zh_name": "",
+      "category": "asana",
+      "source_pages": [
+        {
+          "source_id": "pdf3",
+          "pdf": "Iyangar 瑜珈之光PDF3精.pdf",
+          "page": 111
+        }
+      ],
+      "figures": [],
+      "aliases": [],
+      "auto_label_enabled": true,
+      "needs_review": true
+    },
+    {
+      "tag": "kurmasana",
+      "canonical_name": "Kurmasana",
+      "zh_name": "",
+      "category": "asana",
+      "source_pages": [
+        {
+          "source_id": "pdf3",
+          "pdf": "Iyangar 瑜珈之光PDF3精.pdf",
+          "page": 111
+        }
+      ],
+      "figures": [],
+      "aliases": [],
+      "auto_label_enabled": true,
+      "needs_review": true
+    },
+    {
+      "tag": "mayurasana",
+      "canonical_name": "Mayurasana",
+      "zh_name": "",
+      "category": "asana",
+      "source_pages": [
+        {
+          "source_id": "pdf3",
+          "pdf": "Iyangar 瑜珈之光PDF3精.pdf",
+          "page": 111
+        }
+      ],
+      "figures": [],
+      "aliases": [],
+      "auto_label_enabled": true,
+      "needs_review": true
+    },
+    {
+      "tag": "padma_mayurasana",
+      "canonical_name": "Padma Mayurasana",
+      "zh_name": "",
+      "category": "asana",
+      "source_pages": [
+        {
+          "source_id": "pdf3",
+          "pdf": "Iyangar 瑜珈之光PDF3精.pdf",
+          "page": 111
+        }
+      ],
+      "figures": [],
+      "aliases": [],
+      "auto_label_enabled": true,
+      "needs_review": true
+    },
+    {
+      "tag": "pincha_mayurasana",
+      "canonical_name": "Pincha Mayurasana",
+      "zh_name": "",
+      "category": "asana",
+      "source_pages": [
+        {
+          "source_id": "pdf3",
+          "pdf": "Iyangar 瑜珈之光PDF3精.pdf",
+          "page": 111
+        }
+      ],
+      "figures": [],
+      "aliases": [],
+      "auto_label_enabled": true,
+      "needs_review": true
+    },
+    {
+      "tag": "richikasana",
+      "canonical_name": "Richikasana",
+      "zh_name": "",
+      "category": "asana",
+      "source_pages": [
+        {
+          "source_id": "pdf3",
+          "pdf": "Iyangar 瑜珈之光PDF3精.pdf",
+          "page": 111
+        }
+      ],
+      "figures": [],
+      "aliases": [],
+      "auto_label_enabled": true,
+      "needs_review": true
+    },
+    {
+      "tag": "sayanasana",
+      "canonical_name": "Sayanasana",
+      "zh_name": "",
+      "category": "asana",
+      "source_pages": [
+        {
+          "source_id": "pdf3",
+          "pdf": "Iyangar 瑜珈之光PDF3精.pdf",
+          "page": 111
+        }
+      ],
+      "figures": [],
+      "aliases": [],
+      "auto_label_enabled": true,
+      "needs_review": true
+    },
+    {
+      "tag": "skandasana",
+      "canonical_name": "Skandasana",
+      "zh_name": "",
+      "category": "asana",
+      "source_pages": [
+        {
+          "source_id": "pdf3",
+          "pdf": "Iyangar 瑜珈之光PDF3精.pdf",
+          "page": 111
+        }
+      ],
+      "figures": [],
+      "aliases": [],
+      "auto_label_enabled": true,
+      "needs_review": true
+    },
+    {
+      "tag": "supta_kurmasana",
+      "canonical_name": "Supta Kurmasana",
+      "zh_name": "",
+      "category": "asana",
+      "source_pages": [
+        {
+          "source_id": "pdf3",
+          "pdf": "Iyangar 瑜珈之光PDF3精.pdf",
+          "page": 111
+        }
+      ],
+      "figures": [],
+      "aliases": [],
+      "auto_label_enabled": true,
+      "needs_review": true
+    },
+    {
+      "tag": "tittibhasana",
+      "canonical_name": "Tittibhasana",
+      "zh_name": "",
+      "category": "asana",
+      "source_pages": [
+        {
+          "source_id": "pdf3",
+          "pdf": "Iyangar 瑜珈之光PDF3精.pdf",
+          "page": 111
+        }
+      ],
+      "figures": [],
+      "aliases": [],
+      "auto_label_enabled": true,
+      "needs_review": true
+    },
+    {
+      "tag": "v_rksasana",
+      "canonical_name": "V rksasana",
+      "zh_name": "",
+      "category": "asana",
+      "source_pages": [
+        {
+          "source_id": "pdf3",
+          "pdf": "Iyangar 瑜珈之光PDF3精.pdf",
+          "page": 111
+        }
+      ],
+      "figures": [],
+      "aliases": [],
+      "auto_label_enabled": true,
+      "needs_review": true
+    },
+    {
+      "tag": "vasisthasana",
+      "canonical_name": "Vasisthasana",
+      "zh_name": "",
+      "category": "asana",
+      "source_pages": [
+        {
+          "source_id": "pdf3",
+          "pdf": "Iyangar 瑜珈之光PDF3精.pdf",
+          "page": 111
+        }
+      ],
+      "figures": [],
+      "aliases": [],
+      "auto_label_enabled": true,
+      "needs_review": true
+    },
+    {
+      "tag": "viranchyasana_i",
+      "canonical_name": "Viranchyasana I",
+      "zh_name": "",
+      "category": "asana",
+      "source_pages": [
+        {
+          "source_id": "pdf3",
+          "pdf": "Iyangar 瑜珈之光PDF3精.pdf",
+          "page": 111
+        }
+      ],
+      "figures": [],
+      "aliases": [],
+      "auto_label_enabled": true,
+      "needs_review": true
+    },
+    {
+      "tag": "viranchyasana_ii",
+      "canonical_name": "Viranchyasana II",
+      "zh_name": "",
+      "category": "asana",
+      "source_pages": [
+        {
+          "source_id": "pdf3",
+          "pdf": "Iyangar 瑜珈之光PDF3精.pdf",
+          "page": 111
+        }
+      ],
+      "figures": [],
+      "aliases": [],
+      "auto_label_enabled": true,
+      "needs_review": true
+    },
+    {
+      "tag": "visvamitrasana",
+      "canonical_name": "Visvamitrasana",
+      "zh_name": "",
+      "category": "asana",
+      "source_pages": [
+        {
+          "source_id": "pdf3",
+          "pdf": "Iyangar 瑜珈之光PDF3精.pdf",
+          "page": 111
+        }
+      ],
+      "figures": [],
+      "aliases": [],
+      "auto_label_enabled": true,
+      "needs_review": true
+    },
+    {
+      "tag": "y_oganidrasana",
+      "canonical_name": "Y oganidrasana",
+      "zh_name": "",
+      "category": "asana",
+      "source_pages": [
+        {
+          "source_id": "pdf3",
+          "pdf": "Iyangar 瑜珈之光PDF3精.pdf",
+          "page": 111
+        }
+      ],
+      "figures": [],
+      "aliases": [],
+      "auto_label_enabled": true,
+      "needs_review": true
+    },
+    {
+      "tag": "dwi_pada_koundinyasana",
+      "canonical_name": "Dwi Pada Koundinyasana",
+      "zh_name": "",
+      "category": "asana",
+      "source_pages": [
+        {
+          "source_id": "pdf3",
+          "pdf": "Iyangar 瑜珈之光PDF3精.pdf",
+          "page": 112
+        }
+      ],
+      "figures": [],
+      "aliases": [],
+      "auto_label_enabled": true,
+      "needs_review": true
+    },
+    {
+      "tag": "dwi_pada_viparita_dandasana",
+      "canonical_name": "Dwi Pada Viparita Dandasana",
+      "zh_name": "",
+      "category": "asana",
+      "source_pages": [
+        {
+          "source_id": "pdf3",
+          "pdf": "Iyangar 瑜珈之光PDF3精.pdf",
+          "page": 112
+        }
+      ],
+      "figures": [],
+      "aliases": [],
+      "auto_label_enabled": true,
+      "needs_review": true
+    },
+    {
+      "tag": "eka_pada_bakasana_i",
+      "canonical_name": "Eka Pada Bakasana I",
+      "zh_name": "",
+      "category": "asana",
+      "source_pages": [
+        {
+          "source_id": "pdf3",
+          "pdf": "Iyangar 瑜珈之光PDF3精.pdf",
+          "page": 112
+        }
+      ],
+      "figures": [],
+      "aliases": [],
+      "auto_label_enabled": true,
+      "needs_review": true
+    },
+    {
+      "tag": "eka_pada_bakasana_ii",
+      "canonical_name": "Eka Pada Bakasana II",
+      "zh_name": "",
+      "category": "asana",
+      "source_pages": [
+        {
+          "source_id": "pdf3",
+          "pdf": "Iyangar 瑜珈之光PDF3精.pdf",
+          "page": 112
+        }
+      ],
+      "figures": [],
+      "aliases": [],
+      "auto_label_enabled": true,
+      "needs_review": true
+    },
+    {
+      "tag": "eka_pada_galavasana",
+      "canonical_name": "Eka Pada Galavasana",
+      "zh_name": "",
+      "category": "asana",
+      "source_pages": [
+        {
+          "source_id": "pdf3",
+          "pdf": "Iyangar 瑜珈之光PDF3精.pdf",
+          "page": 112
+        }
+      ],
+      "figures": [],
+      "aliases": [],
+      "auto_label_enabled": true,
+      "needs_review": true
+    },
+    {
+      "tag": "eka_pada_koundinyasana_i",
+      "canonical_name": "Eka Pada Koundinyasana I",
+      "zh_name": "",
+      "category": "asana",
+      "source_pages": [
+        {
+          "source_id": "pdf3",
+          "pdf": "Iyangar 瑜珈之光PDF3精.pdf",
+          "page": 112
+        }
+      ],
+      "figures": [],
+      "aliases": [],
+      "auto_label_enabled": true,
+      "needs_review": true
+    },
+    {
+      "tag": "eka_pada_koundinyasana_ii",
+      "canonical_name": "Eka Pada Koundinyasana II",
+      "zh_name": "",
+      "category": "asana",
+      "source_pages": [
+        {
+          "source_id": "pdf3",
+          "pdf": "Iyangar 瑜珈之光PDF3精.pdf",
+          "page": 112
+        }
+      ],
+      "figures": [],
+      "aliases": [],
+      "auto_label_enabled": true,
+      "needs_review": true
+    },
+    {
+      "tag": "eka_pada_urdhva_dhanurasana",
+      "canonical_name": "Eka Pada Urdhva Dhanurasana",
+      "zh_name": "",
+      "category": "asana",
+      "source_pages": [
+        {
+          "source_id": "pdf3",
+          "pdf": "Iyangar 瑜珈之光PDF3精.pdf",
+          "page": 112
+        }
+      ],
+      "figures": [],
+      "aliases": [],
+      "auto_label_enabled": true,
+      "needs_review": true
+    },
+    {
+      "tag": "galavasana",
+      "canonical_name": "Galavasana",
+      "zh_name": "",
+      "category": "asana",
+      "source_pages": [
+        {
+          "source_id": "pdf3",
+          "pdf": "Iyangar 瑜珈之光PDF3精.pdf",
+          "page": 112
+        }
+      ],
+      "figures": [],
+      "aliases": [],
+      "auto_label_enabled": true,
+      "needs_review": true
+    },
+    {
+      "tag": "hanumanasana",
+      "canonical_name": "Hanumanasana",
+      "zh_name": "",
+      "category": "asana",
+      "source_pages": [
+        {
+          "source_id": "pdf3",
+          "pdf": "Iyangar 瑜珈之光PDF3精.pdf",
+          "page": 112
+        }
+      ],
+      "figures": [],
+      "aliases": [],
+      "auto_label_enabled": true,
+      "needs_review": true
+    },
+    {
+      "tag": "kandasana",
+      "canonical_name": "Kandasana",
+      "zh_name": "",
+      "category": "asana",
+      "source_pages": [
+        {
+          "source_id": "pdf3",
+          "pdf": "Iyangar 瑜珈之光PDF3精.pdf",
+          "page": 112
+        }
+      ],
+      "figures": [],
+      "aliases": [],
+      "auto_label_enabled": true,
+      "needs_review": true
+    },
+    {
+      "tag": "kapotasana",
+      "canonical_name": "Kapotasana",
+      "zh_name": "",
+      "category": "asana",
+      "source_pages": [
+        {
+          "source_id": "pdf3",
+          "pdf": "Iyangar 瑜珈之光PDF3精.pdf",
+          "page": 112
+        }
+      ],
+      "figures": [],
+      "aliases": [],
+      "auto_label_enabled": true,
+      "needs_review": true
+    },
+    {
+      "tag": "mulabandhasana",
+      "canonical_name": "Mulabandhasana",
+      "zh_name": "",
+      "category": "asana",
+      "source_pages": [
+        {
+          "source_id": "pdf3",
+          "pdf": "Iyangar 瑜珈之光PDF3精.pdf",
+          "page": 112
+        }
+      ],
+      "figures": [],
+      "aliases": [],
+      "auto_label_enabled": true,
+      "needs_review": true
+    },
+    {
+      "tag": "parsva_bakasana",
+      "canonical_name": "Parsva Bakasana",
+      "zh_name": "",
+      "category": "asana",
+      "source_pages": [
+        {
+          "source_id": "pdf3",
+          "pdf": "Iyangar 瑜珈之光PDF3精.pdf",
+          "page": 112
+        }
+      ],
+      "figures": [],
+      "aliases": [],
+      "auto_label_enabled": true,
+      "needs_review": true
+    },
+    {
+      "tag": "parsva_kukkutasana",
+      "canonical_name": "Parsva Kukkutasana",
+      "zh_name": "",
+      "category": "asana",
+      "source_pages": [
+        {
+          "source_id": "pdf3",
+          "pdf": "Iyangar 瑜珈之光PDF3精.pdf",
+          "page": 112
+        }
+      ],
+      "figures": [],
+      "aliases": [],
+      "auto_label_enabled": true,
+      "needs_review": true
+    },
+    {
+      "tag": "samakonasana",
+      "canonical_name": "Samakonasana",
+      "zh_name": "",
+      "category": "asana",
+      "source_pages": [
+        {
+          "source_id": "pdf3",
+          "pdf": "Iyangar 瑜珈之光PDF3精.pdf",
+          "page": 112
+        }
+      ],
+      "figures": [],
+      "aliases": [],
+      "auto_label_enabled": true,
+      "needs_review": true
+    },
+    {
+      "tag": "supta_bhekasana",
+      "canonical_name": "Supta Bhekasana",
+      "zh_name": "",
+      "category": "asana",
+      "source_pages": [
+        {
+          "source_id": "pdf3",
+          "pdf": "Iyangar 瑜珈之光PDF3精.pdf",
+          "page": 112
+        }
+      ],
+      "figures": [],
+      "aliases": [],
+      "auto_label_enabled": true,
+      "needs_review": true
+    },
+    {
+      "tag": "urdhva_dhanurasana_i",
+      "canonical_name": "Urdhva Dhanurasana I",
+      "zh_name": "",
+      "category": "asana",
+      "source_pages": [
+        {
+          "source_id": "pdf3",
+          "pdf": "Iyangar 瑜珈之光PDF3精.pdf",
+          "page": 112
+        }
+      ],
+      "figures": [],
+      "aliases": [],
+      "auto_label_enabled": true,
+      "needs_review": true
+    },
+    {
+      "tag": "urdhva_dhanurasana_ii",
+      "canonical_name": "Urdhva Dhanurasana II",
+      "zh_name": "",
+      "category": "asana",
+      "source_pages": [
+        {
+          "source_id": "pdf3",
+          "pdf": "Iyangar 瑜珈之光PDF3精.pdf",
+          "page": 112
+        }
+      ],
+      "figures": [],
+      "aliases": [],
+      "auto_label_enabled": true,
+      "needs_review": true
+    },
+    {
+      "tag": "urdhva_kukkutasana",
+      "canonical_name": "Urdhva Kukkutasana",
+      "zh_name": "",
+      "category": "asana",
+      "source_pages": [
+        {
+          "source_id": "pdf3",
+          "pdf": "Iyangar 瑜珈之光PDF3精.pdf",
+          "page": 112
+        }
+      ],
+      "figures": [],
+      "aliases": [],
+      "auto_label_enabled": true,
+      "needs_review": true
+    },
+    {
+      "tag": "vamadevasana_i",
+      "canonical_name": "Vamadevasana I",
+      "zh_name": "",
+      "category": "asana",
+      "source_pages": [
+        {
+          "source_id": "pdf3",
+          "pdf": "Iyangar 瑜珈之光PDF3精.pdf",
+          "page": 112
+        }
+      ],
+      "figures": [],
+      "aliases": [],
+      "auto_label_enabled": true,
+      "needs_review": true
+    },
+    {
+      "tag": "vamadevasana_ii",
+      "canonical_name": "Vamadevasana II",
+      "zh_name": "",
+      "category": "asana",
+      "source_pages": [
+        {
+          "source_id": "pdf3",
+          "pdf": "Iyangar 瑜珈之光PDF3精.pdf",
+          "page": 112
+        }
+      ],
+      "figures": [],
+      "aliases": [],
+      "auto_label_enabled": true,
+      "needs_review": true
+    },
+    {
+      "tag": "viparita_chakrasana_in_urdhva_dhanurasana",
+      "canonical_name": "Viparita Chakrasana in Urdhva Dhanurasana",
+      "zh_name": "",
+      "category": "asana",
+      "source_pages": [
+        {
+          "source_id": "pdf3",
+          "pdf": "Iyangar 瑜珈之光PDF3精.pdf",
+          "page": 112
+        }
+      ],
+      "figures": [],
+      "aliases": [],
+      "auto_label_enabled": true,
+      "needs_review": true
+    },
+    {
+      "tag": "y_ogadandasana",
+      "canonical_name": "Y ogadandasana",
+      "zh_name": "",
+      "category": "asana",
+      "source_pages": [
+        {
+          "source_id": "pdf3",
+          "pdf": "Iyangar 瑜珈之光PDF3精.pdf",
+          "page": 112
+        }
+      ],
+      "figures": [],
+      "aliases": [],
+      "auto_label_enabled": true,
+      "needs_review": true
+    },
+    {
+      "tag": "chakra_bandhasana",
+      "canonical_name": "Chakra Bandhasana",
+      "zh_name": "",
+      "category": "asana",
+      "source_pages": [
+        {
+          "source_id": "pdf3",
+          "pdf": "Iyangar 瑜珈之光PDF3精.pdf",
+          "page": 113
+        }
+      ],
+      "figures": [],
+      "aliases": [],
+      "auto_label_enabled": true,
+      "needs_review": true
+    },
+    {
+      "tag": "eka_pada_rajakapotasana",
+      "canonical_name": "Eka Pada Rajakapotasana",
+      "zh_name": "",
+      "category": "asana",
+      "source_pages": [
+        {
+          "source_id": "pdf3",
+          "pdf": "Iyangar 瑜珈之光PDF3精.pdf",
+          "page": 113
+        }
+      ],
+      "figures": [],
+      "aliases": [],
+      "auto_label_enabled": true,
+      "needs_review": true
+    },
+    {
+      "tag": "eka_pada_rajakapotasana_i",
+      "canonical_name": "Eka Pada Rajakapotasana I",
+      "zh_name": "",
+      "category": "asana",
+      "source_pages": [
+        {
+          "source_id": "pdf3",
+          "pdf": "Iyangar 瑜珈之光PDF3精.pdf",
+          "page": 113
+        }
+      ],
+      "figures": [],
+      "aliases": [],
+      "auto_label_enabled": true,
+      "needs_review": true
+    },
+    {
+      "tag": "eka_pada_rajakapotasana_ii",
+      "canonical_name": "Eka Pada Rajakapotasana II",
+      "zh_name": "",
+      "category": "asana",
+      "source_pages": [
+        {
+          "source_id": "pdf3",
+          "pdf": "Iyangar 瑜珈之光PDF3精.pdf",
+          "page": 113
+        }
+      ],
+      "figures": [],
+      "aliases": [],
+      "auto_label_enabled": true,
+      "needs_review": true
+    },
+    {
+      "tag": "eka_pada_viparita_dandasana_i",
+      "canonical_name": "Eka Pada Viparita Dandasana I",
+      "zh_name": "",
+      "category": "asana",
+      "source_pages": [
+        {
+          "source_id": "pdf3",
+          "pdf": "Iyangar 瑜珈之光PDF3精.pdf",
+          "page": 113
+        }
+      ],
+      "figures": [],
+      "aliases": [],
+      "auto_label_enabled": true,
+      "needs_review": true
+    },
+    {
+      "tag": "eka_pada_viparita_dandasana_ii",
+      "canonical_name": "Eka Pada Viparita Dandasana II",
+      "zh_name": "",
+      "category": "asana",
+      "source_pages": [
+        {
+          "source_id": "pdf3",
+          "pdf": "Iyangar 瑜珈之光PDF3精.pdf",
+          "page": 113
+        }
+      ],
+      "figures": [],
+      "aliases": [],
+      "auto_label_enabled": true,
+      "needs_review": true
+    },
+    {
+      "tag": "ganda_bherundasana",
+      "canonical_name": "Ganda Bherundasana",
+      "zh_name": "",
+      "category": "asana",
+      "source_pages": [
+        {
+          "source_id": "pdf3",
+          "pdf": "Iyangar 瑜珈之光PDF3精.pdf",
+          "page": 113
+        }
+      ],
+      "figures": [],
+      "aliases": [],
+      "auto_label_enabled": true,
+      "needs_review": true
+    },
+    {
+      "tag": "gherandasana_i",
+      "canonical_name": "Gherandasana I",
+      "zh_name": "",
+      "category": "asana",
+      "source_pages": [
+        {
+          "source_id": "pdf3",
+          "pdf": "Iyangar 瑜珈之光PDF3精.pdf",
+          "page": 113
+        }
+      ],
+      "figures": [],
+      "aliases": [],
+      "auto_label_enabled": true,
+      "needs_review": true
+    },
+    {
+      "tag": "gherandasana_ii",
+      "canonical_name": "Gherandasana II",
+      "zh_name": "",
+      "category": "asana",
+      "source_pages": [
+        {
+          "source_id": "pdf3",
+          "pdf": "Iyangar 瑜珈之光PDF3精.pdf",
+          "page": 113
+        }
+      ],
+      "figures": [],
+      "aliases": [],
+      "auto_label_enabled": true,
+      "needs_review": true
+    },
+    {
+      "tag": "kap_in_j_alasana",
+      "canonical_name": "Kap in j alasana",
+      "zh_name": "",
+      "category": "asana",
+      "source_pages": [
+        {
+          "source_id": "pdf3",
+          "pdf": "Iyangar 瑜珈之光PDF3精.pdf",
+          "page": 113
+        }
+      ],
+      "figures": [],
+      "aliases": [],
+      "auto_label_enabled": true,
+      "needs_review": true
+    },
+    {
+      "tag": "mandalasana",
+      "canonical_name": "Mandalasana",
+      "zh_name": "",
+      "category": "asana",
+      "source_pages": [
+        {
+          "source_id": "pdf3",
+          "pdf": "Iyangar 瑜珈之光PDF3精.pdf",
+          "page": 113
+        }
+      ],
+      "figures": [],
+      "aliases": [],
+      "auto_label_enabled": true,
+      "needs_review": true
+    },
+    {
+      "tag": "padangustha_dhanurasana",
+      "canonical_name": "Padangustha Dhanurasana",
+      "zh_name": "",
+      "category": "asana",
+      "source_pages": [
+        {
+          "source_id": "pdf3",
+          "pdf": "Iyangar 瑜珈之光PDF3精.pdf",
+          "page": 113
+        }
+      ],
+      "figures": [],
+      "aliases": [],
+      "auto_label_enabled": true,
+      "needs_review": true
+    },
+    {
+      "tag": "rajakapotasana",
+      "canonical_name": "Rajakapotasana",
+      "zh_name": "",
+      "category": "asana",
+      "source_pages": [
+        {
+          "source_id": "pdf3",
+          "pdf": "Iyangar 瑜珈之光PDF3精.pdf",
+          "page": 113
+        }
+      ],
+      "figures": [],
+      "aliases": [],
+      "auto_label_enabled": true,
+      "needs_review": true
+    },
+    {
+      "tag": "savasana",
+      "canonical_name": "Savasana",
+      "zh_name": "",
+      "category": "asana",
+      "source_pages": [
+        {
+          "source_id": "pdf3",
+          "pdf": "Iyangar 瑜珈之光PDF3精.pdf",
+          "page": 113
+        }
+      ],
+      "figures": [],
+      "aliases": [],
+      "auto_label_enabled": true,
+      "needs_review": true
+    },
+    {
+      "tag": "sirsa_padasana",
+      "canonical_name": "Sirsa Padasana",
+      "zh_name": "",
+      "category": "asana",
+      "source_pages": [
+        {
+          "source_id": "pdf3",
+          "pdf": "Iyangar 瑜珈之光PDF3精.pdf",
+          "page": 113
+        }
+      ],
+      "figures": [],
+      "aliases": [],
+      "auto_label_enabled": true,
+      "needs_review": true
+    },
+    {
+      "tag": "v_rschikasana_i",
+      "canonical_name": "V rschikasana I",
+      "zh_name": "",
+      "category": "asana",
+      "source_pages": [
+        {
+          "source_id": "pdf3",
+          "pdf": "Iyangar 瑜珈之光PDF3精.pdf",
+          "page": 113
+        }
+      ],
+      "figures": [],
+      "aliases": [],
+      "auto_label_enabled": true,
+      "needs_review": true
+    },
+    {
+      "tag": "v_rschikasana_ii",
+      "canonical_name": "V rschikasana II",
+      "zh_name": "",
+      "category": "asana",
+      "source_pages": [
+        {
+          "source_id": "pdf3",
+          "pdf": "Iyangar 瑜珈之光PDF3精.pdf",
+          "page": 113
+        }
+      ],
+      "figures": [],
+      "aliases": [],
+      "auto_label_enabled": true,
+      "needs_review": true
+    },
+    {
+      "tag": "valakhilyasana",
+      "canonical_name": "Valakhilyasana",
+      "zh_name": "",
+      "category": "asana",
+      "source_pages": [
+        {
+          "source_id": "pdf3",
+          "pdf": "Iyangar 瑜珈之光PDF3精.pdf",
+          "page": 113
+        }
+      ],
+      "figures": [],
+      "aliases": [],
+      "auto_label_enabled": true,
+      "needs_review": true
+    },
+    {
+      "tag": "viparita_salabhasana",
+      "canonical_name": "Viparita Salabhasana",
+      "zh_name": "",
+      "category": "asana",
+      "source_pages": [
+        {
+          "source_id": "pdf3",
+          "pdf": "Iyangar 瑜珈之光PDF3精.pdf",
+          "page": 113
+        }
+      ],
+      "figures": [],
+      "aliases": [],
+      "auto_label_enabled": true,
+      "needs_review": true
+    },
+    {
+      "tag": "anuloma_pranayama",
+      "canonical_name": "Anuloma Pranayama",
+      "zh_name": "",
+      "category": "pranayama",
+      "source_pages": [
+        {
+          "source_id": "pdf3",
+          "pdf": "Iyangar 瑜珈之光PDF3精.pdf",
+          "page": 114
+        }
+      ],
+      "figures": [],
+      "aliases": [],
+      "auto_label_enabled": true,
+      "needs_review": true
+    },
+    {
+      "tag": "bhamari_pranayama",
+      "canonical_name": "Bhamari Pranayama",
+      "zh_name": "",
+      "category": "pranayama",
+      "source_pages": [
+        {
+          "source_id": "pdf3",
+          "pdf": "Iyangar 瑜珈之光PDF3精.pdf",
+          "page": 114
+        }
+      ],
+      "figures": [],
+      "aliases": [],
+      "auto_label_enabled": true,
+      "needs_review": true
+    },
+    {
+      "tag": "bhastrika_pranayama",
+      "canonical_name": "Bhastrika Pranayama",
+      "zh_name": "",
+      "category": "pranayama",
+      "source_pages": [
+        {
+          "source_id": "pdf3",
+          "pdf": "Iyangar 瑜珈之光PDF3精.pdf",
+          "page": 114
+        }
+      ],
+      "figures": [],
+      "aliases": [],
+      "auto_label_enabled": true,
+      "needs_review": true
+    },
+    {
+      "tag": "kapalabhati_pranayama",
+      "canonical_name": "Kapalabhati Pranayama",
+      "zh_name": "",
+      "category": "pranayama",
+      "source_pages": [
+        {
+          "source_id": "pdf3",
+          "pdf": "Iyangar 瑜珈之光PDF3精.pdf",
+          "page": 114
+        }
+      ],
+      "figures": [],
+      "aliases": [],
+      "auto_label_enabled": true,
+      "needs_review": true
+    },
+    {
+      "tag": "pratiloma_pranayama",
+      "canonical_name": "Pratiloma Pranayama",
+      "zh_name": "",
+      "category": "pranayama",
+      "source_pages": [
+        {
+          "source_id": "pdf3",
+          "pdf": "Iyangar 瑜珈之光PDF3精.pdf",
+          "page": 114
+        }
+      ],
+      "figures": [],
+      "aliases": [],
+      "auto_label_enabled": true,
+      "needs_review": true
+    },
+    {
+      "tag": "sahita_and_kevala_kumbhaka_pranayama",
+      "canonical_name": "Sahita and Kevala Kumbhaka Pranayama",
+      "zh_name": "",
+      "category": "pranayama",
+      "source_pages": [
+        {
+          "source_id": "pdf3",
+          "pdf": "Iyangar 瑜珈之光PDF3精.pdf",
+          "page": 114
+        }
+      ],
+      "figures": [],
+      "aliases": [],
+      "auto_label_enabled": true,
+      "needs_review": true
+    },
+    {
+      "tag": "sama_vrtti_pranayama",
+      "canonical_name": "Sama Vrtti Pranayama",
+      "zh_name": "",
+      "category": "pranayama",
+      "source_pages": [
+        {
+          "source_id": "pdf3",
+          "pdf": "Iyangar 瑜珈之光PDF3精.pdf",
+          "page": 114
+        }
+      ],
+      "figures": [],
+      "aliases": [],
+      "auto_label_enabled": true,
+      "needs_review": true
+    },
+    {
+      "tag": "sitakari_pranayama",
+      "canonical_name": "Sitakari Pranayama",
+      "zh_name": "",
+      "category": "pranayama",
+      "source_pages": [
+        {
+          "source_id": "pdf3",
+          "pdf": "Iyangar 瑜珈之光PDF3精.pdf",
+          "page": 114
+        }
+      ],
+      "figures": [],
+      "aliases": [],
+      "auto_label_enabled": true,
+      "needs_review": true
+    },
+    {
+      "tag": "sitali_pranayama",
+      "canonical_name": "Sitali Pranayama",
+      "zh_name": "",
+      "category": "pranayama",
+      "source_pages": [
+        {
+          "source_id": "pdf3",
+          "pdf": "Iyangar 瑜珈之光PDF3精.pdf",
+          "page": 114
+        }
+      ],
+      "figures": [],
+      "aliases": [],
+      "auto_label_enabled": true,
+      "needs_review": true
+    },
+    {
+      "tag": "surya_bhedama_pranayama",
+      "canonical_name": "Surya Bhedama Pranayama",
+      "zh_name": "",
+      "category": "pranayama",
+      "source_pages": [
+        {
+          "source_id": "pdf3",
+          "pdf": "Iyangar 瑜珈之光PDF3精.pdf",
+          "page": 114
+        }
+      ],
+      "figures": [],
+      "aliases": [],
+      "auto_label_enabled": true,
+      "needs_review": true
+    },
+    {
+      "tag": "ujjayi_pranayama",
+      "canonical_name": "Ujjayi Pranayama",
+      "zh_name": "",
+      "category": "pranayama",
+      "source_pages": [
+        {
+          "source_id": "pdf3",
+          "pdf": "Iyangar 瑜珈之光PDF3精.pdf",
+          "page": 114
+        }
+      ],
+      "figures": [],
+      "aliases": [],
+      "auto_label_enabled": true,
+      "needs_review": true
+    },
+    {
+      "tag": "viloma_pranayama",
+      "canonical_name": "Viloma Pranayama",
+      "zh_name": "",
+      "category": "pranayama",
+      "source_pages": [
+        {
+          "source_id": "pdf3",
+          "pdf": "Iyangar 瑜珈之光PDF3精.pdf",
+          "page": 114
+        }
+      ],
+      "figures": [],
+      "aliases": [],
+      "auto_label_enabled": true,
+      "needs_review": true
+    },
+    {
+      "tag": "visama_vrtti_pranayama",
+      "canonical_name": "Visama Vrtti Pranayama",
+      "zh_name": "",
+      "category": "pranayama",
+      "source_pages": [
+        {
+          "source_id": "pdf3",
+          "pdf": "Iyangar 瑜珈之光PDF3精.pdf",
+          "page": 114
+        }
+      ],
+      "figures": [],
+      "aliases": [],
+      "auto_label_enabled": true,
+      "needs_review": true
+    },
+    {
+      "tag": "arjuna_asana",
+      "canonical_name": "Arjuna Asana",
+      "zh_name": "人獅",
+      "category": "asana",
+      "source_pages": [
+        {
+          "source_id": "pdf3",
+          "pdf": "Iyangar 瑜珈之光PDF3精.pdf",
+          "page": 117
+        }
+      ],
+      "figures": [],
+      "aliases": [],
+      "auto_label_enabled": true,
+      "needs_review": true
+    },
+    {
+      "tag": "kaya_kayika_kev_ala_kevala_kumbhaka_klesa_kona_krouncha_kriya",
+      "canonical_name": "Kaya Kayika Kev ala Kevala Kumbhaka Klesa Kona Krouncha Kriya",
+      "zh_name": "",
+      "category": "asana",
+      "source_pages": [
+        {
+          "source_id": "pdf3",
+          "pdf": "Iyangar 瑜珈之光PDF3精.pdf",
+          "page": 124
+        }
+      ],
+      "figures": [],
+      "aliases": [],
+      "auto_label_enabled": true,
+      "needs_review": true
+    },
+    {
+      "tag": "prakrti_pramada_pramana_prana_prana_vayu_pranava_pranayama",
+      "canonical_name": "Prakrti Pramada Pramana Prana Prana-vayu Pranava Pranayama",
+      "zh_name": "",
+      "category": "pranayama",
+      "source_pages": [
+        {
+          "source_id": "pdf3",
+          "pdf": "Iyangar 瑜珈之光PDF3精.pdf",
+          "page": 129
+        }
+      ],
+      "figures": [],
+      "aliases": [],
+      "auto_label_enabled": true,
+      "needs_review": true
+    }
+  ]
+}

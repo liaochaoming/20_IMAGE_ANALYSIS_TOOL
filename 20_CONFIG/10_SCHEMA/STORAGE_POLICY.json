@@ -1,0 +1,84 @@
+{
+    "version":  "0.2",
+    "updated_at":  "2026-05-07T00:00:00+08:00",
+    "policy_name":  "IMAGE_ANALYSIS_STORAGE_POLICY",
+    "principle_zh":  "HOST 負責運算，NAS/BRAIN 負責正式保存。40_ALL_INPUT 是全域未分類入口；30_CATALOG\\{CATEGORY}\\15_{CATEGORY}_INPUT 是分類後分析入口；00_DATA 與 10_CONFIG 是分類標準來源與規則。",
+    "host_role":  {
+                      "HOST_B":  "GPU / LLM / YOLO / MediaPipe / Embedding 運算節點",
+                      "NAS_AI_BRAIN":  "唯一正式資料中心"
+                  },
+    "path_mode":  "portable_with_placeholders",
+    "local_project_root":  "D:\\20_IMAGE_ANALYSIS_TOOL",
+    "nas_project_root_placeholder":  "${NAS_AI_BRAIN_ROOT}\\20_IMAGE_ANALYSIS_TOOL",
+    "current_local_paths":  {
+                                "config":  "20_CONFIG",
+                                "project":  "30_CATALOG",
+                                "input":  "40_ALL_INPUT",
+                                "script":  "70_SCRIPT",
+                                "app":  "80_APP",
+                                "doc":  "90_DOC",
+                                "log":  "99_LOG"
+                            },
+    "project_subpaths":  {
+                             "source_data":  "00_DATA",
+                             "config":  "10_CONFIG",
+                             "catalog_input":  "15_{CATEGORY}_INPUT",
+                             "output":  "20_ANALYSIS_RESULT",
+                             "db":  "30_DB",
+                             "rag":  "40_RAG",
+                             "tag":  "50_TAG",
+                             "doc":  "90_DOC",
+                             "analysis_json":  "20_ANALYSIS_RESULT\\analysis_json",
+                             "config_suggestions":  "20_ANALYSIS_RESULT\\config_suggestions",
+                             "vector_index":  "40_RAG\\vector_index",
+                             "auto_tags":  "50_TAG\\auto_tags"
+                         },
+    "yoga_data_paths":  {
+                            "raw_pdf":  "30_CATALOG\\YOGA\\00_DATA\\10_RAW_PDF",
+                            "raw_image":  "30_CATALOG\\YOGA\\00_DATA\\20_RAW_IMAGE",
+                            "reference_pose":  "30_CATALOG\\YOGA\\00_DATA\\30_REFERENCE_POSE",
+                            "output":  "30_CATALOG\\YOGA\\20_ANALYSIS_RESULT",
+                            "db":  "30_CATALOG\\YOGA\\30_DB",
+                            "rag":  "30_CATALOG\\YOGA\\40_RAG",
+                            "tag":  "30_CATALOG\\YOGA\\50_TAG",
+                            "source_data":  "30_CATALOG\\YOGA\\00_DATA",
+                            "config":  "30_CATALOG\\YOGA\\10_CONFIG",
+                            "analysis_input":  "30_CATALOG\\YOGA\\15_YOGA_INPUT",
+                            "analysis_json":  "30_CATALOG\\YOGA\\20_ANALYSIS_RESULT\\analysis_json",
+                            "config_suggestions":  "30_CATALOG\\YOGA\\20_ANALYSIS_RESULT\\config_suggestions",
+                            "vector_index":  "30_CATALOG\\YOGA\\40_RAG\\vector_index",
+                            "auto_tags":  "30_CATALOG\\YOGA\\50_TAG\\auto_tags"
+                        },
+    "future_nas_paths":  {
+                             "project":  "${NAS_AI_BRAIN_ROOT}\\20_IMAGE_ANALYSIS_TOOL\\30_CATALOG",
+                             "input":  "${NAS_AI_BRAIN_ROOT}\\20_IMAGE_ANALYSIS_TOOL\\40_ALL_INPUT"
+                         },
+    "local_cache_policy":  {
+                               "allowed":  true,
+                               "description_zh":  "大量分析時可先把 NAS 來源鏡像到本機 40_ALL_INPUT 或分類專案工作區，分析完成後把 OUTPUT/DB/RAG/TAG 寫回 NAS。",
+                               "cache_folders":  [
+                                                     "40_ALL_INPUT",
+                                                     "30_CATALOG\\{CATEGORY}\\15_{CATEGORY}_INPUT",
+                                                     "30_CATALOG\\{CATEGORY}\\20_ANALYSIS_RESULT",
+                                                     "30_CATALOG\\{CATEGORY}\\30_DB",
+                                                     "30_CATALOG\\{CATEGORY}\\40_RAG",
+                                                     "30_CATALOG\\{CATEGORY}\\50_TAG",
+                                                     "99_LOG"
+                                                 ]
+                           },
+    "migration_rule":  [
+                           "現在：D:\\20_IMAGE_ANALYSIS_TOOL 作為 HOST_B 本機工作區。",
+                           "全域未分類圖片先進 40_ALL_INPUT。",
+                           "分類完成後移入 30_CATALOG\\{CATEGORY}\\15_{CATEGORY}_INPUT。",
+                           "00_DATA 保存來源標準資料；10_CONFIG 保存分類規則與標籤規則。",
+                           "分析完成後把 OUTPUT/DB/RAG/TAG 寫回分類目錄，未來同步到 NAS。",
+                           "程式不可硬寫死 I:\\ 或 D:\\；應讀取 STORAGE_POLICY.json 或環境變數。",
+                           "模型本體仍保留在 D:\\30_AI_MODEL，不放入專案資料包。"
+                       ],
+    "category_input_paths":  {
+                                 "ANATOMY":  "30_CATALOG\\ANATOMY\\15_ANATOMY_INPUT",
+                                 "INTERIOR_DESIGN":  "30_CATALOG\\INTERIOR_DESIGN\\15_INTERIOR_DESIGN_INPUT",
+                                 "LIAO_PHOTO":  "30_CATALOG\\LIAO_PHOTO\\15_LIAO_PHOTO_INPUT",
+                                 "YOGA":  "30_CATALOG\\YOGA\\15_YOGA_INPUT"
+                             }
+}
