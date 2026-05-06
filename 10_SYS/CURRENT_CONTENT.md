@@ -22,144 +22,141 @@ LIAO_PHOTO
 目前控制讀取順序以此檔為準：
 
 ```text
-D:\20_IMAGE_ANALYSIS_TOOL\10_SYS\02_ACTIVE_DIRECTORY_INDEX.md
+10_SYS\02_ACTIVE_DIRECTORY_INDEX.md
 ```
+
+本專案不需要：
+
+```text
+10_SYS\03_MASTER_CONTROL_INDEX.md
+```
+
+`02_ACTIVE_DIRECTORY_INDEX.md` 已合併 active directory index 與 boot control index，不應將 `03_MASTER_CONTROL_INDEX.md` 視為缺少開機檔。
 
 核心架構檔：
 
 ```text
-D:\20_IMAGE_ANALYSIS_TOOL\10_SYS\04_SYSTEM_ARCHITECTURE.md
+10_SYS\04_SYSTEM_ARCHITECTURE.md
 ```
 
 長期決策檔：
 
 ```text
-D:\20_IMAGE_ANALYSIS_TOOL\10_SYS\05_PROJECT_KNOWLEDGE.md
+10_SYS\05_PROJECT_KNOWLEDGE.md
 ```
 
 目前狀態檔：
 
 ```text
-D:\20_IMAGE_ANALYSIS_TOOL\10_SYS\06_PROJECT_STATUS_CURRENT.md
+10_SYS\06_PROJECT_STATUS_CURRENT.md
 ```
 
 ## 本次完成
 
-1. 統一四大分類資料夾架構：
+1. 依序完成開工讀檔：
 
 ```text
-00_DATA
-10_CONFIG
-15_{CATEGORY}_INPUT
-20_ANALYSIS_RESULT
-30_DB
-40_RAG
-50_TAG
-90_DOC
+10_SYS\00_KINGDOM_SYS.md
+10_SYS\01_EXECUTION_POLICY.md
+10_SYS\02_ACTIVE_DIRECTORY_INDEX.md
+10_SYS\04_SYSTEM_ARCHITECTURE.md
+10_SYS\05_PROJECT_KNOWLEDGE.md
+10_SYS\06_PROJECT_STATUS_CURRENT.md
+最新 10_SYS\CODEX_CONTINUE_CONTENT_*.md
+10_SYS\CURRENT_CONTENT.md
 ```
 
-2. 將舊命名同步替換：
+2. 確認 WebUI 狀態：
 
 ```text
-40_INPUT -> 40_ALL_INPUT
-00_CONFIG / 10_DATA -> 10_CONFIG / 00_DATA
-20_OUTPUT -> 20_ANALYSIS_RESULT
-70_SCRIPT\ASSET_MANAGER -> 70_SCRIPT
+WebUI build 成功
+啟動腳本：70_SCRIPT\Start_ImageLabel_WebUI.bat
+主程式：80_APP\ASSET_MANAGER_WEBUI\image_label_webui.py
+URL：http://127.0.0.1:7860
+YOGA input：30_CATALOG\YOGA\15_YOGA_INPUT
+YOGA auto_tags：30_CATALOG\YOGA\50_TAG\auto_tags
 ```
 
-3. 建立共用分析引擎：
+3. 確認 GPU / YOLO 環境：
 
 ```text
-D:\20_IMAGE_ANALYSIS_TOOL\80_APP\ANALYSIS_ENGINE\analysis_engine.py
+GPU：NVIDIA GeForce RTX 5080
+Torch：2.11.0+cu130
+CUDA：True
+verify_full_env.py：IMAGE_ANALYSIS_FULL_ENV_OK
 ```
 
-4. 建立 YOGA 批次分析入口：
+4. 移除舊快版 YOLO 依賴，正式模型統一為：
 
 ```text
-D:\20_IMAGE_ANALYSIS_TOOL\70_SCRIPT\Run_Yoga_Analysis.bat
+D:\30_AI_MODEL\YOLO_POSE\models\yolo11x-pose.pt
 ```
 
-5. 建立四分類 Pipeline / Tag Schema：
+已去除舊快版模型、快版模型鍵名、快版驗證變數與快版文件描述。
+
+5. 更新 Analysis Engine：
+
+```text
+80_APP\ANALYSIS_ENGINE\analysis_engine.py
+```
+
+現在 `load_yolo_model()` 只讀 pipeline 裡的 `models.yolo_pose`。
+
+6. 更新 YOGA Pipeline：
 
 ```text
 30_CATALOG\YOGA\10_CONFIG\YOGA_ANALYSIS_PIPELINE.json
-30_CATALOG\YOGA\10_CONFIG\YOGA_TAG_SCHEMA.json
-30_CATALOG\ANATOMY\10_CONFIG\ANATOMY_ANALYSIS_PIPELINE.json
-30_CATALOG\ANATOMY\10_CONFIG\ANATOMY_TAG_SCHEMA.json
-30_CATALOG\INTERIOR_DESIGN\10_CONFIG\INTERIOR_DESIGN_ANALYSIS_PIPELINE.json
-30_CATALOG\INTERIOR_DESIGN\10_CONFIG\INTERIOR_DESIGN_TAG_SCHEMA.json
-30_CATALOG\LIAO_PHOTO\10_CONFIG\LIAO_PHOTO_ANALYSIS_PIPELINE.json
-30_CATALOG\LIAO_PHOTO\10_CONFIG\LIAO_PHOTO_TAG_SCHEMA.json
 ```
 
-6. 建立四分類 DuckDB 初始檔：
+目前模型欄位：
 
-```text
-30_CATALOG\{CATEGORY}\30_DB\image_index.duckdb
+```json
+"yolo_pose": "D:\\30_AI_MODEL\\YOLO_POSE\\models\\yolo11x-pose.pt",
+"active_yolo_pose": "strong"
 ```
 
-7. WebUI 已改為讀取 YOGA 分析入口：
+7. 更新環境驗證與模型下載腳本：
 
 ```text
-D:\20_IMAGE_ANALYSIS_TOOL\30_CATALOG\YOGA\15_YOGA_INPUT
+70_SCRIPT\verify_full_env.py
+70_SCRIPT\download_yolo_pose_models.py
 ```
 
-8. WebUI 已接入自動 TAG：
+兩者都只檢查 / 下載 / 載入 `yolo11x-pose.pt`。
+
+8. 更新 INDEX / ARCHITECTURE：
 
 ```text
-D:\20_IMAGE_ANALYSIS_TOOL\30_CATALOG\YOGA\50_TAG\auto_tags
+10_SYS\02_ACTIVE_DIRECTORY_INDEX.md
+10_SYS\04_SYSTEM_ARCHITECTURE.md
 ```
 
-右側新增「自動分析標籤」，並把英文 tag 轉為中文顯示。TAG JSON 檔案仍維持英文 ID。
-
-9. 建立根目錄中文捷徑：
+正式文件已改為：
 
 ```text
-D:\20_IMAGE_ANALYSIS_TOOL\YOGA圖片放這裡.lnk
-D:\20_IMAGE_ANALYSIS_TOOL\執行YOGA批次分析.lnk
-```
-
-10. 已更新架構與索引：
-
-```text
-D:\20_IMAGE_ANALYSIS_TOOL\10_SYS\04_SYSTEM_ARCHITECTURE.md
-D:\20_IMAGE_ANALYSIS_TOOL\10_SYS\05_PROJECT_KNOWLEDGE.md
-D:\20_IMAGE_ANALYSIS_TOOL\10_SYS\06_PROJECT_STATUS_CURRENT.md
-D:\20_IMAGE_ANALYSIS_TOOL\10_SYS\02_ACTIVE_DIRECTORY_INDEX.md
-D:\20_IMAGE_ANALYSIS_TOOL\DIR_INDEX.md
-D:\20_IMAGE_ANALYSIS_TOOL\90_DOC\PROJECT_DIR_INDEX.md
-D:\20_IMAGE_ANALYSIS_TOOL\90_DOC\ASSET_MANAGER_README.md
+YOLO Pose 只使用 yolo11x-pose.pt。
+本專案只保留正式 YOLO Pose 模式。
 ```
 
 ## 重要決策
 
-1. `analysis_engine.py` 是共用引擎，不保存分類規則。
-2. 分類規則放在各分類自己的 `10_CONFIG`。
-3. `10_CONFIG` 是正式規則，模型不能直接覆蓋。
-4. 模型建議的新規則先寫入：
+1. 本專案不再保留 YOLO fast / light 模式。
+2. YOLO Pose 正式模型只使用 `yolo11x-pose.pt`。
+3. 模型大檔仍外置於 `D:\30_AI_MODEL`，不放入 Git。
+4. 可攜式模型 fallback 仍保留為 `90_MODEL\YOLO_POSE\models`，但目前未放模型檔。
+5. `analysis_engine.py` 是共用引擎，不保存分類規則。
+6. 分類規則放在各分類自己的 `10_CONFIG`。
+7. `10_CONFIG` 是正式規則，模型不能直接覆蓋。
+8. 模型建議的新規則先寫入：
 
 ```text
 20_ANALYSIS_RESULT\config_suggestions
 ```
 
-5. 每張圖實際產生的 tag 寫入：
+9. 每張圖實際產生的 tag 寫入：
 
 ```text
 50_TAG\auto_tags
-```
-
-6. `20_ANALYSIS_RESULT` 是分析結果，不放原始圖片。
-7. 原始待分析圖片仍留在：
-
-```text
-15_{CATEGORY}_INPUT
-```
-
-如需分流已處理圖片，後續可新增：
-
-```text
-16_{CATEGORY}_PROCESSED
-17_{CATEGORY}_ERROR
 ```
 
 ## 驗證結果
@@ -167,23 +164,21 @@ D:\20_IMAGE_ANALYSIS_TOOL\90_DOC\ASSET_MANAGER_README.md
 已完成下列驗證：
 
 ```text
-JSON 全部可解析
-JSON 內 D:\ 路徑全部存在
-Python 可編譯
-四分類 analysis_engine --limit 0 空跑成功
-WebUI import 成功
 WebUI build 成功
-YOGA 中文捷徑目標存在
-舊 20_OUTPUT / 40_INPUT / YOGA\10_DATA / YOGA\00_CONFIG 無殘留
+NVIDIA GPU 可辨識
+torch.cuda.is_available() = True
+verify_full_env.py 成功
+analysis_engine.py --category YOGA --limit 0 成功
+核心文字掃描無舊快版 YOLO 殘留
 ```
 
 目前可執行：
 
 ```powershell
-D:\20_IMAGE_ANALYSIS_TOOL\.venv\Scripts\python.exe D:\20_IMAGE_ANALYSIS_TOOL\80_APP\ANALYSIS_ENGINE\analysis_engine.py --category YOGA
-D:\20_IMAGE_ANALYSIS_TOOL\.venv\Scripts\python.exe D:\20_IMAGE_ANALYSIS_TOOL\80_APP\ANALYSIS_ENGINE\analysis_engine.py --category ANATOMY
-D:\20_IMAGE_ANALYSIS_TOOL\.venv\Scripts\python.exe D:\20_IMAGE_ANALYSIS_TOOL\80_APP\ANALYSIS_ENGINE\analysis_engine.py --category INTERIOR_DESIGN
-D:\20_IMAGE_ANALYSIS_TOOL\.venv\Scripts\python.exe D:\20_IMAGE_ANALYSIS_TOOL\80_APP\ANALYSIS_ENGINE\analysis_engine.py --category LIAO_PHOTO
+.\.venv\Scripts\python.exe .\70_SCRIPT\verify_full_env.py
+.\.venv\Scripts\python.exe .\80_APP\ANALYSIS_ENGINE\analysis_engine.py --category YOGA --limit 0
+.\70_SCRIPT\Start_ImageLabel_WebUI.bat
+.\70_SCRIPT\Run_Yoga_Analysis.bat
 ```
 
 ## 下一步
@@ -205,8 +200,8 @@ D:\20_IMAGE_ANALYSIS_TOOL\.venv\Scripts\python.exe D:\20_IMAGE_ANALYSIS_TOOL\80_
 
 ## Blockers / 注意
 
-1. `D:\20_IMAGE_ANALYSIS_TOOL` 目前不是 Git repository。
-2. 因為不是 Git repository，本次無法依收工流程 commit / push。
-3. NAS 正式根路徑尚未指定為實際 UNC 或 I 槽路徑。
-4. `analysis_engine.py` 目前 YOGA 會啟動 YOLO Pose；其他分類目前採安全預設，不啟動 YOLO / LLM，只做最小可跑流程。
-5. WebUI Gradio 6 會提示 CSS 參數位置警告，但目前不影響 build / import。
+1. NAS 正式根路徑尚未指定為實際 UNC 路徑。
+2. 可攜式模型資料夾 `90_MODEL\YOLO_POSE\models` 目前沒有模型檔。
+3. 目前實際模型來源是 `D:\30_AI_MODEL\YOLO_POSE\models\yolo11x-pose.pt`。
+4. 工作區仍有本次未納入提交的既有 dirty / untracked 檔案，例如 `.gitignore`、部分 storage/script 檔、`.playwright-mcp`、`conversations`、`bash_events`、影片檔。
+5. WebUI Gradio 6 會提示 CSS 參數位置警告，目前不影響 build / import。

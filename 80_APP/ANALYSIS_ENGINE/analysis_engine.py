@@ -3,14 +3,19 @@ from __future__ import annotations
 import argparse
 import hashlib
 import json
+import os
 from datetime import datetime, timezone
 from pathlib import Path
 from typing import Any
 
 
-TOOL_ROOT = Path(r"D:\20_IMAGE_ANALYSIS_TOOL")
+TOOL_ROOT = Path(__file__).resolve().parents[2]
 CATALOG_ROOT = TOOL_ROOT / "30_CATALOG"
 SUPPORTED_EXTS_DEFAULT = {".jpg", ".jpeg", ".png", ".webp", ".bmp"}
+LEGACY_TOOL_ROOT = Path(r"D:\20_IMAGE_ANALYSIS_TOOL")
+MODEL_DIR_ENV = "IMAGE_ANALYSIS_MODEL_DIR"
+DEFAULT_MODEL_DIR = Path(r"D:\30_AI_MODEL\YOLO_POSE\models")
+PORTABLE_MODEL_DIR = TOOL_ROOT / "90_MODEL" / "YOLO_POSE" / "models"
 
 
 def now_iso() -> str:
@@ -26,6 +31,34 @@ def write_json(path: Path, data: dict[str, Any]) -> None:
     path.parent.mkdir(parents=True, exist_ok=True)
     with path.open("w", encoding="utf-8") as f:
         json.dump(data, f, ensure_ascii=False, indent=2)
+
+
+def resolve_project_path(value: str | Path) -> Path:
+    path = Path(value)
+    try:
+        relative = path.relative_to(LEGACY_TOOL_ROOT)
+        return TOOL_ROOT / relative
+    except ValueError:
+        return path
+
+
+def resolve_model_path(value: str | Path) -> Path:
+    filename = Path(value).name
+    candidates: list[Path] = []
+    env_model_dir = os.environ.get(MODEL_DIR_ENV)
+    if env_model_dir:
+        candidates.append(Path(env_model_dir) / filename)
+    candidates.extend(
+        [
+            PORTABLE_MODEL_DIR / filename,
+            DEFAULT_MODEL_DIR / filename,
+            resolve_project_path(value),
+        ]
+    )
+    for candidate in candidates:
+        if candidate.exists():
+            return candidate
+    return candidates[0]
 
 
 def file_hash(path: Path) -> str:
@@ -72,10 +105,8 @@ def iter_images(input_dir: Path, supported_exts: set[str]) -> list[Path]:
 def load_yolo_model(pipeline: dict[str, Any]) -> Any | None:
     if not pipeline.get("steps", {}).get("yolo_pose", False):
         return None
-    model_key = "yolo_pose_fast"
-    if pipeline.get("models", {}).get("active_yolo_pose") == "strong":
-        model_key = "yolo_pose_strong"
-    model_path = Path(pipeline["models"][model_key])
+    model_key = "yolo_pose"
+    model_path = resolve_model_path(pipeline["models"][model_key])
     if not model_path.exists():
         raise FileNotFoundError(f"Missing YOLO model: {model_path}")
     from ultralytics import YOLO
@@ -160,8 +191,8 @@ def analyze_image(image_path: Path, category: str, pipeline: dict[str, Any], tag
     yolo_result = run_yolo(yolo_model, image_path)
     tags = build_tags(category, yolo_result, tag_schema)
     paths = pipeline["paths"]
-    analysis_json_path = Path(paths["analysis_json_dir"]) / f"{asset_id}.json"
-    auto_tag_path = Path(paths["auto_tag_dir"]) / f"{asset_id}.json"
+    analysis_json_path = resolve_project_path(paths["analysis_json_dir"]) / f"{asset_id}.json"
+    auto_tag_path = resolve_project_path(paths["auto_tag_dir"]) / f"{asset_id}.json"
     record = {
         "asset_id": asset_id,
         "category_id": category.upper(),
@@ -206,7 +237,7 @@ def run_category(category: str, limit: int | None = None) -> dict[str, Any]:
     category = category.upper()
     pipeline, tag_schema = load_category_config(category)
     supported_exts = set(pipeline.get("rules", {}).get("supported_extensions", SUPPORTED_EXTS_DEFAULT))
-    input_dir = Path(pipeline["paths"].get("input_dir") or category_paths(category)["default_input_dir"])
+    input_dir = resolve_project_path(pipeline["paths"].get("input_dir") or category_paths(category)["default_input_dir"])
     images = iter_images(input_dir, supported_exts)
     if limit is not None:
         images = images[:limit]
@@ -222,7 +253,7 @@ def run_category(category: str, limit: int | None = None) -> dict[str, Any]:
         "status": "done",
         "finished_at": now_iso(),
     }
-    log_dir = Path(pipeline["paths"]["log_dir"])
+    log_dir = resolve_project_path(pipeline["paths"]["log_dir"])
     write_json(log_dir / f"analysis_run_{category.lower()}_{datetime.now().strftime('%Y%m%d_%H%M%S')}.json", run_summary)
     return run_summary
 

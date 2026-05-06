@@ -1,5 +1,5 @@
 {
-  "version": "0.1",
+  "version": "0.2",
   "category_id": "YOGA",
   "updated_at": "2026-05-07T00:00:00+08:00",
   "paths": {
@@ -18,9 +18,8 @@
     "log_dir": "D:\\20_IMAGE_ANALYSIS_TOOL\\99_LOG\\ASSET_MANAGER"
   },
   "models": {
-    "yolo_pose_fast": "D:\\30_AI_MODEL\\YOLO_POSE\\models\\yolo11n-pose.pt",
-    "yolo_pose_strong": "D:\\30_AI_MODEL\\YOLO_POSE\\models\\yolo11x-pose.pt",
-    "active_yolo_pose": "fast",
+    "yolo_pose": "D:\\30_AI_MODEL\\YOLO_POSE\\models\\yolo11x-pose.pt",
+    "active_yolo_pose": "strong",
     "vision_llm": "qwen3-vl:32b"
   },
   "steps": {

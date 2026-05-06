@@ -21,6 +21,14 @@ LAST_UPDATE: 2026-05-07
 8. 最新的 CODEX_CONTINUE_CONTENT_YYYY-MM-DD_HHMMSS.md
 ```
 
+## Boot File Policy
+
+```text
+10_SYS\03_MASTER_CONTROL_INDEX.md is not required.
+10_SYS\02_ACTIVE_DIRECTORY_INDEX.md already includes the active directory index and boot control index.
+Do not report 03_MASTER_CONTROL_INDEX.md as a missing boot file for this project.
+```
+
 ## Active Directory Tree
 
 ```text
@@ -59,6 +67,7 @@ D:\20_IMAGE_ANALYSIS_TOOL
 - YOGA Pipeline：30_CATALOG\YOGA\10_CONFIG\YOGA_ANALYSIS_PIPELINE.json
 - YOGA Tag Schema：30_CATALOG\YOGA\10_CONFIG\YOGA_TAG_SCHEMA.json
 - YOGA 標籤庫：30_CATALOG\YOGA\10_CONFIG\YOGA_POSE_TAGS.json
+- YOGA 正式 YOLO Pose 模型：D:\30_AI_MODEL\YOLO_POSE\models\yolo11x-pose.pt
 - YOGA 來源標準：30_CATALOG\YOGA\00_DATA
 - YOGA 分析入口：30_CATALOG\YOGA\15_YOGA_INPUT
 - YOGA 標籤產物：30_CATALOG\YOGA\50_TAG
@@ -67,6 +76,15 @@ D:\20_IMAGE_ANALYSIS_TOOL
 - Asset Manager 設定：80_APP\ASSET_MANAGER_WEBUI\00_CONFIG
 - Asset Manager WebUI：80_APP\ASSET_MANAGER_WEBUI\image_label_webui.py
 - Asset Manager 啟動：70_SCRIPT\Start_ImageLabel_WebUI.bat
+
+## 模型政策
+
+```text
+YOLO Pose 只使用 yolo11x-pose.pt。
+本專案只保留正式 YOLO Pose 模式。
+模型預設外置於 D:\30_AI_MODEL\YOLO_POSE\models。
+可攜式模型 fallback 為 90_MODEL\YOLO_POSE\models，但不進 Git。
+```
 
 ## 不適用範圍
 

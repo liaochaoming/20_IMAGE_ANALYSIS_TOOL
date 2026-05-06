@@ -253,7 +253,9 @@ WebUI 讀結果顯示
 
 ```text
 YOLO Pose
+= 使用 yolo11x-pose.pt
 = 人體偵測 / 姿勢點 / 多人分析
+= 本專案只保留正式 YOLO Pose 模式
 
 MediaPipe
 = pose landmark / 人體關節點
@@ -325,6 +327,9 @@ D:\20_IMAGE_ANALYSIS_TOOL\70_SCRIPT\verify_full_env.py
 ```text
 Pipeline 設定：
 D:\20_IMAGE_ANALYSIS_TOOL\30_CATALOG\YOGA\10_CONFIG\YOGA_ANALYSIS_PIPELINE.json
+
+正式 YOLO Pose 模型：
+D:\30_AI_MODEL\YOLO_POSE\models\yolo11x-pose.pt
 
 Tag Schema：
 D:\20_IMAGE_ANALYSIS_TOOL\30_CATALOG\YOGA\10_CONFIG\YOGA_TAG_SCHEMA.json

@@ -16,7 +16,7 @@ print("torch", torch.__version__)
 print("cuda_available", torch.cuda.is_available())
 print("gpu", torch.cuda.get_device_name(0) if torch.cuda.is_available() else "NONE")
 
-for name in ["yolo11n-pose.pt", "yolo11x-pose.pt"]:
+for name in ["yolo11x-pose.pt"]:
     target = MODEL_DIR / name
     if target.exists():
         print(f"exists {target}")
@@ -38,7 +38,7 @@ cv2.line(img, (320, 500), (230, 620), (255, 255, 255), 8)
 cv2.line(img, (320, 500), (410, 620), (255, 255, 255), 8)
 cv2.imwrite(str(test_img), img)
 
-model = YOLO(str(MODEL_DIR / "yolo11n-pose.pt"))
+model = YOLO(str(MODEL_DIR / "yolo11x-pose.pt"))
 results = model.predict(str(test_img), device=0 if torch.cuda.is_available() else "cpu", verbose=False)
 print("gpu_predict_ok", len(results))
 
